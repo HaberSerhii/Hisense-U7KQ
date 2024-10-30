@@ -1270,6 +1270,15 @@ body {
     font-size: 22px;
   }
 
+  .hisense-U7KQ .model-title-image {
+    width: 120px;
+    height: 87px;
+  }
+
+  .hisense-U7KQ .model-container-image {
+    width: 144px;
+  }
+
   .hisense-U7KQ .buy-now {
     padding: 100px 130px;
     gap: 70px;

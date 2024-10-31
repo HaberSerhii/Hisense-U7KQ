@@ -1630,3 +1630,406 @@ body {
     font-size: 14px;
   }
 }
+
+@media (min-width: 1440px) {
+  .hisense-U7KQ .hero {
+    grid-template-rows: 583px;
+    grid-template-columns: 862px 1fr;
+  }
+
+  .hisense-U7KQ .hero-bg-main-title {
+    width: 394px;
+    margin-top: 84px;
+  }
+
+  .hisense-U7KQ .hero-bg-secondary-title {
+    width: 400px;
+  }
+
+  .hisense-U7KQ .compare {
+    padding: 100px 56px;
+  }
+
+  .hisense-U7KQ .compare-label {
+    width: 180px;
+  }
+
+  .hisense-U7KQ .compare-label-container {
+    grid-template-columns: 180px 589px;
+    grid-template-rows: 70px 76px;
+  }
+
+  .hisense-U7KQ .compare-model-container {
+    gap: 40px;
+  }
+
+  .hisense-U7KQ .compare-label-title {
+    font-size: 60px;
+  }
+
+  .hisense-U7KQ .compare-label-description {
+    font-size: 32px;
+  }
+
+  .hisense-U7KQ .model-icon-container {
+    width: 284px;
+  }
+
+  .hisense-U7KQ .model-icon-image {
+    width: 96px;
+  }
+
+  .hisense-U7KQ .model-icon-description {
+    font-size: 14px;
+  }
+
+  .hisense-U7KQ .model-title-image {
+    width: 200px;
+    height: 146px;
+  }
+
+  .hisense-U7KQ .model-container-image {
+    width: 234px;
+  }
+
+  .hisense-U7KQ .buy-now {
+    padding: 120px 225px;
+    gap: 80px;
+  }
+
+  .hisense-U7KQ .buy-now-container-title {
+    font-size: 100px;
+  }
+
+  .hisense-U7KQ .buy-now-image-container {
+    width: 240px;
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .buy-now-container-second-title {
+    font-size: 32px;
+  }
+
+  .hisense-U7KQ .buy-now-container-button {
+    font-size: 20px;
+    border-radius: 70px;
+    padding: 16px 44px;
+  }
+
+  .hisense-U7KQ .diods {
+    padding: 88px 80px 352px 80px;
+    grid-template-columns: repeat(3, 204px);
+    grid-template-rows: 141px 42px auto;
+  }
+
+  .hisense-U7KQ .diods-title {
+    font-size: 40px;
+    width: 1100px;
+  }
+
+  .hisense-U7KQ .diods-description {
+    font-size: 18px;
+    width: 1200px;
+  }
+
+  .hisense-U7KQ .attribute-title {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .attribute-number {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .attribute-uppertitle {
+    font-size: 18px;
+    width: 133px;
+  }
+
+  .hisense-U7KQ .sunshine-picture {
+    padding: 513px 75px 82px 55px;
+    grid-template-columns: 609px 95px 114px 284px;
+    grid-template-rows: 94px 63px;
+  }
+  .hisense-U7KQ .sunshinepicture-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .sunshine-picture-description {
+    font-size: 18px;
+    width: 609px;
+  }
+
+  .hisense-U7KQ .sunshine-picture-img-container {
+    grid-template-columns: 94px 114px 200px;
+    align-items: center;
+  }
+
+  .hisense-U7KQ .sunshine-picture-logo-container {
+    gap: 29px;
+    width: 284px;
+  }
+
+  .hisense-U7KQ .logo-img {
+    width: 59px;
+  }
+
+  .hisense-U7KQ .logo-description {
+    font-size: 14px;
+  }
+
+  .hisense-U7KQ .gaming {
+    padding: 80px 80px 395px 80px;
+    grid-template-rows: 47px 64px 126px 32px;
+    gap: 8px;
+  }
+
+  .hisense-U7KQ .gaming-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .gaming-image {
+    width: 379px;
+  }
+
+  .hisense-U7KQ .gaming-description {
+    font-size: 18px;
+    width: 553px;
+  }
+
+  .hisense-U7KQ .gaming-img-container {
+    column-gap: 24px;
+    row-gap: 0px;
+    grid-template-columns: 80px 65px 55px 57px 149px;
+    grid-template-rows: 1fr;
+  }
+
+  .hisense-U7KQ .gaming-logo-container {
+    gap: 11px;
+    width: 150px;
+  }
+
+  .hisense-U7KQ .gaming-logo-img {
+    width: 50px;
+  }
+
+  .hisense-U7KQ .gaming-logo-description {
+    font-size: 11px;
+  }
+
+  .hisense-U7KQ .detalisation {
+    padding: 45px 80px;
+    gap: 24px;
+  }
+
+  .hisense-U7KQ .detalisation-title {
+    font-size: 40px;
+    margin-bottom: 475px;
+  }
+  .hisense-U7KQ .detalisation-description {
+    font-size: 17px;
+  }
+  .hisense-U7KQ .detalisation-attribute-container {
+    column-gap: 95px;
+  }
+  .hisense-U7KQ .detalisation-attribute-first-container {
+    gap: 12px;
+  }
+  .hisense-U7KQ .detalisation-attribute-first-icon {
+    width: 46px;
+  }
+  .hisense-U7KQ .detalisation-attribute-first-description {
+    font-size: 18px;
+    width: 260px;
+  }
+  .hisense-U7KQ .detalisation-attribute-second-container {
+    gap: 12px;
+  }
+  .hisense-U7KQ .detalisation-attribute-second-icon {
+    width: 56px;
+  }
+  .hisense-U7KQ .detalisation-attribute-second-description {
+    font-size: 18px;
+    width: 240px;
+  }
+  .hisense-U7KQ .detalisation-attribute-hdr {
+    width: 110px;
+  }
+  .hisense-U7KQ .detalisation-attribute-dolby {
+    width: 91px;
+  }
+
+  .hisense-U7KQ .quantum-color {
+    padding: 292px 153px;
+  }
+
+  .hisense-U7KQ .quantum-color-container {
+    border-radius: 40px;
+    padding: 40px;
+    gap: 17px;
+  }
+
+  .hisense-U7KQ .quantum-color-container-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .quantum-color-logo-container {
+    gap: 11px;
+  }
+
+  .hisense-U7KQ .quantum-logo {
+    width: 44px;
+  }
+
+  .hisense-U7KQ .quantum-logo-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .imax {
+    padding: 45px 80px;
+    gap: 392px;
+  }
+
+  .hisense-U7KQ .imax-header-container {
+    height: 140px;
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .imax-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .imax-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .imax-logo {
+    width: 249px;
+  }
+
+  .hisense-U7KQ .imax-attribute-container {
+    grid-template-columns: repeat(4, 209px);
+    column-gap: 24px;
+  }
+
+  .hisense-U7KQ .imax-icon-container {
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .imax-attribute-icon {
+    width: 60px;
+  }
+
+  .hisense-U7KQ .imax-attribute-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .profi-gamers {
+    padding: 139px 80px;
+  }
+
+  .hisense-U7KQ .profi-gamers-container {
+    gap: 70px;
+  }
+
+  .hisense-U7KQ .profi-gamers-description-container:first-child {
+    width: 470px;
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
+    width: 575px;
+    gap: 12px;
+    margin-right: 635px;
+  }
+
+  .hisense-U7KQ .profi-gamers-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .profi-gamers-uppertitle {
+    gap: 12px;
+    margin-right: 23px;
+  }
+
+  .hisense-U7KQ .profi-gamers-uppertitle-attribute {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .profi-gamers-uppertitle-image {
+    width: 67px;
+  }
+
+  .hisense-U7KQ .uppertitle-attribute-span {
+    font-size: 14px;
+  }
+
+  .hisense-U7KQ .gaming-panel {
+    padding: 49px 80px 525px 80px;
+  }
+
+  .hisense-U7KQ .gaming-panel-container {
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .gaming-panel-container-title {
+    font-size: 50px;
+  }
+
+  .hisense-U7KQ .gaming-panel-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .gaming-panel-icon-container {
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .gaming-panel-icon-container-image {
+    width: 72px;
+  }
+
+  .hisense-U7KQ .gaming-panel-icon-container-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .hollywood-production {
+    gap: 16px;
+    padding: 100px 80px 795px 80px;
+  }
+
+  .hisense-U7KQ .hollywood-production-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .hollywood-production-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .hollywood-production-image {
+    width: 64px;
+  }
+
+  .hisense-U7KQ .ai {
+    gap: 16px;
+    padding: 0px 80px 545px 80px;
+  }
+
+  .hisense-U7KQ .ai-title {
+    font-size: 40px;
+  }
+
+  .hisense-U7KQ .ai-description {
+    font-size: 18px;
+  }
+
+  .hisense-U7KQ .ai-icon-container {
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .ai-icon {
+    width: 60px;
+  }
+
+  .hisense-U7KQ .ai-icon-description {
+    font-size: 18px;
+  }
+}

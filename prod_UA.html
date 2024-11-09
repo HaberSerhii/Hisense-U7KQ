@@ -1,825 +1,102 @@
 <style type="text/css">
-.product__description.base-padding {
-  padding: 0;
-  border-radius: 0px;
-}
-
-body {
-  padding: 0;
-}
-
-.hisense-U7KQ .visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
-@media (min-width: 768px) {
-  .hisense-U7KQ .visually-hidden {
-    width: inherit;
-    height: inherit;
-    margin: inherit;
+  .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
   }
-}
 
-.hisense-U7KQ img {
-  margin: 0;
-}
+  body {
+    padding: 0;
+  }
+
+  .hisense-U7KQ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .hisense-U7KQ .visually-hidden {
+      position: relative;
+      width: inherit;
+      height: inherit;
+      margin: inherit;
+      white-space: inherit;
+      clip-path: inherit;
+      clip: inherit;
+      overflow: visible;
+    }
+  }
+
+  .hisense-U7KQ img {
+    margin: 0;
+  }
+
+  .hisense-U7KQ p {
+    padding: 0;
+    margin: 0;
+    line-height: 130%;
+  }
+
+  .hisense-U7KQ h3 {
+    padding: 0;
+    margin: 0;
+    line-height: 115%;
+  }
+
+  .hisense-U7KQ ul {
+    padding: 0;
+  }
+
+  .hisense-U7KQ ul li {
+    padding: 0;
+  }
+
+  .hisense-U7KQ {
+    overflow: hidden;
+  }
+
+  .hisense-U7KQ div {
+    padding: 0;
+    width: initial;
+  }
+
+  .hisense-U7KQ br {
+    display: block;
+  }
+
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  /* MAIN STYLE */
 
-.hisense-U7KQ p {
-  padding: 0;
-  margin: 0;
-}
-
-.hisense-U7KQ h3 {
-  padding: 0;
-  margin: 0;
-}
-
-.hisense-U7KQ ul {
-  padding: 0;
-}
-
-.hisense-U7KQ ul li {
-  padding: 0;
-}
-
-.hisense-U7KQ {
-  overflow: hidden;
-}
-
-.hisense-U7KQ div {
-  padding: 0;
-  width: initial;
-}
-
-.hisense-U7KQ br {
-  display: block;
-}
-
-.product__body .el-tabs__header {
-  z-index: 6;
-}
-
-/* MAIN STYLE */
-
-.hisense-U7KQ .hero {
-  display: grid;
-  grid-template-rows: 243px 107px;
-}
-
-.hisense-U7KQ .hero-bg-main {
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-image.webp");
-  background-position: center;
-  background-size: cover;
-  display: grid;
-  justify-items: center;
-}
-.hisense-U7KQ .hero-bg-main-title {
-  width: 164px;
-  margin-top: 35px;
-}
-.hisense-U7KQ .hero-bg-secondary {
-  background: #000;
-  display: grid;
-  justify-items: center;
-}
-.hisense-U7KQ .hero-bg-secondary-title {
-  width: 167px;
-}
-
-.hisense-U7KQ .video-container {
-  width: 100%;
-  margin-top: -1px;
-}
-
-.hisense-U7KQ .compare {
-  margin-top: -1px;
-  padding: 40px;
-  display: grid;
-  gap: 70px;
-  background: #000;
-}
-.hisense-U7KQ .compare-label {
-  width: 60px;
-  grid-row: 1/3;
-}
-.hisense-U7KQ .compare-label-container {
-  display: grid;
-  grid-template-columns: 60px 230px;
-  grid-template-rows: 26px 28px;
-  column-gap: 16px;
-  align-items: center;
-}
-
-.hisense-U7KQ .compare-label-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 22px;
-  color: #fff;
-}
-
-.hisense-U7KQ .compare-label-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  color: #fff;
-  grid-column: 2/3;
-}
-
-.hisense-U7KQ .compare-model {
-  display: grid;
-  gap: 24px;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-  align-items: start;
-}
-
-.hisense-U7KQ .compare-model-container {
-  display: grid;
-  gap: 24px;
-  justify-items: center;
-}
-
-.hisense-U7KQ .model-title-image {
-  width: 90px;
-  height: 65px;
-}
-
-.hisense-U7KQ .model-container-image {
-  width: 104px;
-}
-
-.hisense-U7KQ .model-icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  width: 134px;
-}
-
-.hisense-U7KQ .model-icon-image {
-  width: 56px;
-}
-
-.hisense-U7KQ .model-icon-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .buy-now {
-  margin-top: -1px;
-  padding: 40px 27px;
-  background-color: #000;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-}
-
-.hisense-U7KQ .buy-now-containers-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-}
-
-.hisense-U7KQ .buy-now-container {
-  display: grid;
-  row-gap: 16px;
-  justify-items: center;
-}
-
-.hisense-U7KQ .buy-now-container-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #fff;
-  grid-column: 1/4;
-}
-
-.hisense-U7KQ .buy-now-image-container {
-  width: 88px;
-  display: grid;
-  gap: 16px;
-}
-
-.hisense-U7KQ .buy-now-image {
-  width: 100%;
-}
-.hisense-U7KQ .buy-now-container-second-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  text-align: center;
-  color: #fff;
-}
-.hisense-U7KQ .buy-now-container-button {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
-  color: #000;
-  border-radius: 70px;
-  padding: 10px 16px;
-  border: 0px;
-  background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
-  grid-column: 1/4;
-}
-
-.hisense-U7KQ .diods {
-  margin-top: -4px;
-  padding: 40px 16px;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/diods-bg-image.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #000;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 138px 70px 69px;
-  gap: 16px;
-  height: 406px;
-}
-
-.hisense-U7KQ .diods-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  background: linear-gradient(78deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  grid-column: 1/4;
-  width: 310px;
-}
-
-.hisense-U7KQ .diods-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  color: #fcfeff;
-  grid-column: 1/4;
-}
-
-.hisense-U7KQ .diods-attribute-container-dark {
-  color: #a97d46;
-}
-
-.hisense-U7KQ .diods-attribute-container-medium {
-  color: #bfa277;
-}
-
-.hisense-U7KQ .diods-attribute-container-light {
-  color: #d1c0a0;
-}
-
-.hisense-U7KQ .attribute-title {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-}
-
-.hisense-U7KQ .attribute-number {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 28px;
-}
-
-.hisense-U7KQ .attribute-uppertitle {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-}
-
-.hisense-U7KQ .sunshine-picture {
-  margin-top: -1px;
-  padding: 40px 16px 0 16px;
-  background-color: #000;
-  display: grid;
-  gap: 16px;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/sunshine-picture.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 420px;
-  grid-template-rows: 46px 42px 68px;
-}
-.hisense-U7KQ .sunshinepicture-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  color: #fcfeff;
-}
-.title-span-color {
-  background: linear-gradient(78deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hisense-U7KQ .sunshine-picture-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  color: #fcfeff;
-  width: 270px;
-}
-
-.hisense-U7KQ .sunshine-picture-img-container {
-  display: grid;
-  column-gap: 19px;
-  row-gap: 8px;
-  grid-template-columns: 57px 78px;
-  grid-template-rows: 32px 36px;
-}
-
-.hisense-U7KQ .sunshine-picture-logo {
-  width: 100%;
-}
-
-.hisense-U7KQ .sunshine-picture-logo-container {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  width: 200px;
-}
-
-.hisense-U7KQ .logo-img {
-  width: 34px;
-}
-.hisense-U7KQ .logo-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .gaming {
-  background-color: #000;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 380px;
-  padding: 40px 16px;
-  display: grid;
-  grid-template-rows: 23px 44px 98px 65px;
-  gap: 8px;
-  justify-items: end;
-}
-
-.hisense-U7KQ .gaming-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .gaming-image {
-  width: 256px;
-}
-
-.hisense-U7KQ .gaming-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  text-align: right;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .gaming-img-container {
-  display: grid;
-  column-gap: 16px;
-  row-gap: 8px;
-  grid-template-columns: 64px 52px 44px;
-  grid-template-rows: 32px 36px;
-  padding-right: 16px;
-}
-
-.hisense-U7KQ .gaming-logo {
-  width: 100%;
-}
-
-.hisense-U7KQ .gaming-logo-container {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  width: 150px;
-}
-
-.hisense-U7KQ .gaming-logo-img {
-  width: 40px;
-}
-
-.hisense-U7KQ .gaming-logo-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .detalisation {
-  margin-top: -4px;
-  padding: 40px 16px;
-  background-color: #000;
-  display: grid;
-  gap: 14px;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-main.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.hisense-U7KQ .detalisation-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  color: #fcfeff;
-  margin-bottom: 130px;
-}
-.hisense-U7KQ .detalisation-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  color: #fcfeff;
-}
-.hisense-U7KQ .detalisation-attribute-container {
-  display: grid;
-  column-gap: 24px;
-  row-gap: 9px;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-}
-.hisense-U7KQ .detalisation-attribute-first-container {
-  display: flex;
-  gap: 9px;
-  align-items: center;
-}
-.hisense-U7KQ .detalisation-attribute-first-icon {
-  width: 25px;
-}
-.hisense-U7KQ .detalisation-attribute-first-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-  color: #fcfeff;
-}
-.hisense-U7KQ .detalisation-attribute-second-container {
-  display: flex;
-  gap: 9px;
-  align-items: center;
-  grid-row: 2/3;
-}
-.hisense-U7KQ .detalisation-attribute-second-icon {
-  width: 29px;
-}
-.hisense-U7KQ .detalisation-attribute-second-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 10px;
-  color: #fcfeff;
-}
-.hisense-U7KQ .detalisation-attribute-hdr {
-  width: 58px;
-}
-.hisense-U7KQ .detalisation-attribute-dolby {
-  width: 48px;
-}
-
-.hisense-U7KQ .quantum-color {
-  margin-top: -4px;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/quantum-color.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 276px;
-  display: grid;
-  align-items: center;
-  padding: 0 16px;
-}
-
-.hisense-U7KQ .quantum-color-container {
-  border-radius: 21px;
-  padding: 22px;
-  background: rgba(0, 0, 0, 0.65);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  gap: 9px;
-}
-
-.hisense-U7KQ .quantum-color-container-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: center;
-  color: #fcfeff;
-}
-.hisense-U7KQ .quantum-color-logo-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 6px;
-}
-.hisense-U7KQ .quantum-logo {
-  width: 23px;
-}
-
-.hisense-U7KQ .quantum-logo-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  color: #fff;
-}
-
-.hisense-U7KQ .imax {
-  margin-top: -1px;
-  background-color: #000;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-main.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 530px;
-  padding: 40px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 170px;
-  justify-content: flex-end;
-}
-
-.hisense-U7KQ .imax-header-container {
-  display: flex;
-  flex-direction: column;
-  height: 144px;
-  gap: 9px;
-  align-items: center;
-}
-
-.hisense-U7KQ .imax-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: center;
-  background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hisense-U7KQ .imax-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  text-align: center;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .imax-logo {
-  width: 131px;
-  margin-bottom: 157px;
-}
-
-.hisense-U7KQ .imax-attribute-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 9px;
-  row-gap: 40px;
-}
-
-.hisense-U7KQ .imax-icon-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 9px;
-}
-
-.hisense-U7KQ .imax-attribute-icon {
-  width: 31px;
-}
-
-.hisense-U7KQ .imax-attribute-description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .profi-gamers {
-  margin-top: -4px;
-  padding: 40px 16px;
-  background-color: #000;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/profi-gamers.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.hisense-U7KQ .profi-gamers-container {
-  display: flex;
-  flex-direction: column;
-  gap: 162px;
-  align-items: flex-end;
-}
-
-.hisense-U7KQ .profi-gamers-description-container:first-child {
-  width: 235px;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  gap: 9px;
-}
-
-.hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 9px;
-}
-
-.hisense-U7KQ .profi-gamers-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: inherit;
-  background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hisense-U7KQ .profi-gamers-uppertitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 9px;
-}
-.hisense-U7KQ .profi-gamers-uppertitle-attribute {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: inherit;
-  color: #fcfeff;
-}
-.hisense-U7KQ .profi-gamers-uppertitle-image {
-  width: 35px;
-}
-.hisense-U7KQ .uppertitle-attribute-span {
-  font-size: 10px;
-}
-
-.hisense-U7KQ .gaming-panel {
-  margin-top: -1px;
-  background-color: #000;
-  padding: 40px 16px 155px 16px;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-panel.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.hisense-U7KQ .gaming-panel-container {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  align-items: center;
-}
-.hisense-U7KQ .gaming-panel-container-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-  background: linear-gradient(90deg, #499aff 0%, #e92fe8 51.2%, #fe4100 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hisense-U7KQ .gaming-panel-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  text-align: center;
-  color: #fcfeff;
-}
-.hisense-U7KQ .gaming-panel-icon-container {
-  display: flex;
-  gap: 4px;
-}
-.hisense-U7KQ .gaming-panel-icon-container-image {
-  width: 38px;
-}
-.hisense-U7KQ .gaming-panel-icon-container-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .hollywood-production {
-  margin-top: -4px;
-  display: grid;
-  gap: 9px;
-  justify-items: center;
-  padding: 40px 16px 230px 16px;
-  background-color: #000;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/hollywood-main.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.hisense-U7KQ .hollywood-production-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: center;
-  background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hisense-U7KQ .hollywood-production-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  text-align: center;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .hollywood-production-image {
-  width: 52px;
-}
-
-.hisense-U7KQ .ai {
-  display: grid;
-  justify-items: center;
-  gap: 9px;
-  padding: 40px 16px 150px 16px;
-  background-color: #000;
-  background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/ai-main.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  margin-top: -1px;
-}
-
-.hisense-U7KQ .ai-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  text-align: center;
-  background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hisense-U7KQ .ai-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 10px;
-  text-align: center;
-  color: #fcfeff;
-}
-
-.hisense-U7KQ .ai-icon-container {
-  display: flex;
-  gap: 9px;
-  justify-content: center;
-  align-items: center;
-}
-
-.hisense-U7KQ .ai-icon {
-  width: 38px;
-}
-
-.hisense-U7KQ .ai-icon-description {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 12px;
-  color: #fcfeff;
-}
-
-@media (min-width: 768px) {
   .hisense-U7KQ .hero {
     display: grid;
-    grid-template-rows: 306px;
-    grid-template-columns: 454px 1fr;
+    grid-template-rows: 243px 107px;
+  }
+
+  .hisense-U7KQ .hero-bg-main {
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-image.webp");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
   }
 
   .hisense-U7KQ .hero-bg-main-title {
     width: 164px;
+    margin-top: 35px;
   }
 
   .hisense-U7KQ .hero-bg-secondary {
-    align-items: center;
-    justify-items: left;
+    background: #000;
+    display: grid;
+    justify-items: center;
   }
 
   .hisense-U7KQ .hero-bg-secondary-title {
@@ -833,142 +110,297 @@ body {
 
   .hisense-U7KQ .compare {
     margin-top: -1px;
-    padding: 80px 56px;
+    padding: 40px;
+    display: grid;
+    gap: 70px;
     background: #000;
   }
+
   .hisense-U7KQ .compare-label {
-    width: 100px;
+    width: 60px;
+    grid-row: 1/3;
   }
 
   .hisense-U7KQ .compare-label-container {
-    grid-template-columns: 100px 300px;
-    grid-template-rows: 35px 35px;
-    column-gap: 38px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 60px 230px;
+    grid-template-rows: 26px 28px;
+    column-gap: 16px;
+    align-items: center;
   }
 
   .hisense-U7KQ .compare-label-title {
-    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
   }
 
   .hisense-U7KQ .compare-label-description {
-    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    grid-column: 2/3;
+  }
+
+  .hisense-U7KQ .compare-model {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: start;
+  }
+
+  .hisense-U7KQ .compare-model-container {
+    display: grid;
+    gap: 24px;
+    justify-items: center;
+  }
+
+  .hisense-U7KQ .model-title-image {
+    width: 90px;
+    height: 65px;
+  }
+
+  .hisense-U7KQ .model-container-image {
+    width: 104px;
+  }
+
+  .hisense-U7KQ .model-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 134px;
+  }
+
+  .hisense-U7KQ .model-icon-image {
+    width: 56px;
+  }
+
+  .hisense-U7KQ .model-icon-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .buy-now {
-    padding: 80px 101px;
+    margin-top: -1px;
+    padding: 40px 27px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
   }
 
   .hisense-U7KQ .buy-now-containers-wrap {
-    gap: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
   }
 
   .hisense-U7KQ .buy-now-container {
-    row-gap: 50px;
+    display: grid;
+    row-gap: 16px;
+    justify-items: center;
   }
 
   .hisense-U7KQ .buy-now-container-title {
-    font-size: 56px;
-  }
-
-  .hisense-U7KQ .buy-now-image-container {
-    width: 130px;
-    gap: 32px;
-  }
-
-  .hisense-U7KQ .buy-now-container-second-title {
-    font-size: 18px;
-  }
-  .hisense-U7KQ .buy-now-container-button {
-    font-size: 14px;
-    padding: 12px 24px;
-  }
-
-  .hisense-U7KQ .diods {
-    padding: 40px 50px 146px 50px;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: 69px 42px auto;
-    gap: 16px;
-    height: auto;
-  }
-
-  .hisense-U7KQ .diods-title {
-    font-size: 20px;
-    width: 550px;
-  }
-
-  .hisense-U7KQ .diods-description {
-    font-size: 12px;
-    width: 600px;
-  }
-
-  .hisense-U7KQ .attribute-title {
-    font-size: 12px;
-  }
-
-  .hisense-U7KQ .attribute-number {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .attribute-uppertitle {
-    font-size: 12px;
-  }
-
-  .hisense-U7KQ .sunshine-picture {
-    padding: 212px 46px 40px 46px;
-    row-gap: 16px;
-    column-gap: 66px;
-    height: auto;
-    grid-template-columns: 152px 66px 92px 154px;
-    grid-template-rows: 46px 70px;
-    background-size: cover;
-  }
-  .hisense-U7KQ .sunshinepicture-title {
-    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
     grid-column: 1/4;
   }
 
-  .hisense-U7KQ .sunshine-picture-description {
+  .hisense-U7KQ .buy-now-image-container {
+    width: 88px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .buy-now-image {
+    width: 100%;
+  }
+
+  .hisense-U7KQ .buy-now-container-second-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
-    width: 152px;
-    grid-row: 2/3;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hisense-U7KQ .buy-now-container-button {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    border-radius: 70px;
+    padding: 10px 16px;
+    border: 0px;
+    background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
+    grid-column: 1/4;
+  }
+
+  .hisense-U7KQ .diods {
+    margin-top: -4px;
+    padding: 40px 16px 137px 16px;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/diods-bg-image.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 138px 70px 69px;
+    gap: 16px;
+  }
+
+  .hisense-U7KQ .diods-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(78deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    grid-column: 1/4;
+    width: 310px;
+  }
+
+  .hisense-U7KQ .diods-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #fcfeff;
+    grid-column: 1/4;
+  }
+
+  .hisense-U7KQ .diods-attribute-container-dark {
+    color: #a97d46;
+  }
+
+  .hisense-U7KQ .diods-attribute-container-medium {
+    color: #bfa277;
+  }
+
+  .hisense-U7KQ .diods-attribute-container-light {
+    color: #d1c0a0;
+  }
+
+  .hisense-U7KQ .attribute-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    color: inherit;
+  }
+
+  .hisense-U7KQ .attribute-number {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: inherit;
+  }
+
+  .hisense-U7KQ .attribute-uppertitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    color: inherit;
+  }
+
+  .hisense-U7KQ .sunshine-picture {
+    margin-top: -1px;
+    padding: 40px 16px 287px 16px;
+    background-color: #000;
+    display: grid;
+    gap: 16px;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/sunshine-picture.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    grid-template-rows: 46px 42px 68px;
+  }
+
+  .hisense-U7KQ .sunshinepicture-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fcfeff;
+  }
+
+  .title-span-color {
+    background: linear-gradient(78deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hisense-U7KQ .sunshine-picture-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #fcfeff;
+    width: 270px;
   }
 
   .hisense-U7KQ .sunshine-picture-img-container {
+    display: grid;
     column-gap: 19px;
-    grid-template-columns: 66px 92px 194px;
-    grid-template-rows: 1fr;
-    grid-row: 2/3;
-    grid-column: 2/4;
-    align-items: start;
+    row-gap: 8px;
+    grid-template-columns: 57px 78px;
+    grid-template-rows: 32px 36px;
+  }
+
+  .hisense-U7KQ .sunshine-picture-logo {
+    width: 100%;
   }
 
   .hisense-U7KQ .sunshine-picture-logo-container {
+    display: flex;
     gap: 8px;
+    align-items: center;
     width: 200px;
   }
 
   .hisense-U7KQ .logo-img {
-    width: 40px;
+    width: 34px;
   }
 
   .hisense-U7KQ .logo-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 10px;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .gaming {
     margin-top: -1px;
-    background-size: cover;
-    height: auto;
-    padding: 60px 56px 92px 56px;
+    background-color: #000;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 40px 16px;
+    display: grid;
     grid-template-rows: 23px 44px 98px 65px;
     gap: 8px;
     justify-items: end;
   }
 
   .hisense-U7KQ .gaming-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .gaming-image {
@@ -976,19 +408,30 @@ body {
   }
 
   .hisense-U7KQ .gaming-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 12px;
-    width: 305px;
+    text-align: right;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .gaming-img-container {
+    display: grid;
     column-gap: 16px;
     row-gap: 8px;
     grid-template-columns: 64px 52px 44px;
     grid-template-rows: 32px 36px;
+    padding-right: 16px;
+  }
+
+  .hisense-U7KQ .gaming-logo {
+    width: 100%;
   }
 
   .hisense-U7KQ .gaming-logo-container {
+    display: flex;
     gap: 8px;
+    align-items: center;
     width: 150px;
   }
 
@@ -997,69 +440,124 @@ body {
   }
 
   .hisense-U7KQ .gaming-logo-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 10px;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .detalisation {
-    padding: 30px 41px;
-    gap: 14px;
-    background-size: cover;
-    background-position: center;
+    margin-top: -4px;
+    padding: 40px 16px 46px 16px;
+    background-color: #000;
+    display: grid;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-main.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
   }
+
   .hisense-U7KQ .detalisation-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
-    margin-bottom: 242px;
+    color: #fcfeff;
+    margin-bottom: 145px;
   }
+
   .hisense-U7KQ .detalisation-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    color: #fcfeff;
+    margin-bottom: 14px;
   }
+
   .hisense-U7KQ .detalisation-attribute-container {
-    column-gap: 70px;
-    row-gap: 0px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    column-gap: 24px;
+    row-gap: 9px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
+
   .hisense-U7KQ .detalisation-attribute-first-container {
+    display: flex;
     gap: 9px;
+    align-items: center;
   }
+
   .hisense-U7KQ .detalisation-attribute-first-icon {
     width: 25px;
   }
+
   .hisense-U7KQ .detalisation-attribute-first-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 10px;
+    color: #fcfeff;
   }
+
   .hisense-U7KQ .detalisation-attribute-second-container {
+    display: flex;
     gap: 9px;
-    grid-row: 1/2;
+    align-items: center;
+    grid-row: 2/3;
   }
+
   .hisense-U7KQ .detalisation-attribute-second-icon {
     width: 29px;
   }
+
   .hisense-U7KQ .detalisation-attribute-second-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 10px;
+    color: #fcfeff;
   }
+
   .hisense-U7KQ .detalisation-attribute-hdr {
     width: 58px;
   }
+
   .hisense-U7KQ .detalisation-attribute-dolby {
     width: 48px;
   }
 
   .hisense-U7KQ .quantum-color {
-    height: auto;
-    padding: 154px 81px;
+    margin-top: -4px;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/quantum-color.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    padding: 78px 16px;
   }
 
   .hisense-U7KQ .quantum-color-container {
     border-radius: 21px;
     padding: 22px;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     gap: 9px;
   }
 
   .hisense-U7KQ .quantum-color-container-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .quantum-color-logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 6px;
   }
 
@@ -1068,43 +566,71 @@ body {
   }
 
   .hisense-U7KQ .quantum-logo-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 12px;
+    color: #fff;
   }
 
   .hisense-U7KQ .imax {
-    background-size: cover;
-    height: auto;
-    padding: 29px 41px;
-    gap: 165px;
-    align-items: center;
+    margin-top: -1px;
+    background-color: #000;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-main.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 40%;
+    padding: 40px 16px 47px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    justify-content: flex-end;
   }
 
   .hisense-U7KQ .imax-header-container {
-    height: 93px;
+    display: flex;
+    flex-direction: column;
+    height: 144px;
     gap: 9px;
+    align-items: center;
   }
 
   .hisense-U7KQ .imax-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hisense-U7KQ .imax-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .imax-logo {
     width: 131px;
-    margin-bottom: 0px;
+    margin-bottom: 157px;
   }
 
   .hisense-U7KQ .imax-attribute-container {
-    grid-template-columns: repeat(4, 110px);
-    grid-template-rows: 1fr;
-    column-gap: 13px;
-    row-gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 9px;
+    row-gap: 40px;
   }
 
   .hisense-U7KQ .imax-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 9px;
   }
 
@@ -1113,42 +639,69 @@ body {
   }
 
   .hisense-U7KQ .imax-attribute-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 12px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .profi-gamers {
-    padding: 73px 41px;
-    background-size: cover;
+    margin-top: -4px;
+    padding: 40px 16px 50px 16px;
+    background-color: #000;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/profi-gamers.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
   }
 
   .hisense-U7KQ .profi-gamers-container {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 162px;
     align-items: flex-end;
   }
 
   .hisense-U7KQ .profi-gamers-description-container:first-child {
     width: 235px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
     gap: 9px;
   }
 
   .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
-    width: 395px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     gap: 9px;
-    margin-right: 240px;
   }
 
   .hisense-U7KQ .profi-gamers-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: inherit;
+    background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     gap: 9px;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle-attribute {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: inherit;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle-image {
@@ -1160,23 +713,43 @@ body {
   }
 
   .hisense-U7KQ .gaming-panel {
-    padding: 30px 41px 265px 41px;
-    background-size: cover;
+    margin-top: -1px;
+    background-color: #000;
+    padding: 40px 16px 155px 16px;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-panel.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 
   .hisense-U7KQ .gaming-panel-container {
+    display: flex;
+    flex-direction: column;
     gap: 9px;
+    align-items: center;
   }
 
   .hisense-U7KQ .gaming-panel-container-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 24px;
+    text-align: center;
+    background: linear-gradient(90deg, #499aff 0%, #e92fe8 51.2%, #fe4100 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hisense-U7KQ .gaming-panel-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .gaming-panel-icon-container {
+    display: flex;
     gap: 4px;
   }
 
@@ -1185,22 +758,42 @@ body {
   }
 
   .hisense-U7KQ .gaming-panel-icon-container-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .hollywood-production {
+    margin-top: -4px;
+    display: grid;
     gap: 9px;
     justify-items: center;
-    padding: 30px 35px 408px 35px;
-    background-size: cover;
+    padding: 40px 16px 230px 16px;
+    background-color: #000;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/hollywood-main.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 
   .hisense-U7KQ .hollywood-production-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hisense-U7KQ .hollywood-production-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .hollywood-production-image {
@@ -1208,21 +801,42 @@ body {
   }
 
   .hisense-U7KQ .ai {
+    display: grid;
+    justify-items: center;
     gap: 9px;
-    padding: 0px 41px 276px 41px;
-    background-size: cover;
+    padding: 40px 16px 150px 16px;
+    background-color: #000;
+    background-image: url("https://i.citrus.world/uploads/Haber/Hisense-u7kq/ai-main.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: -1px;
   }
 
   .hisense-U7KQ .ai-title {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hisense-U7KQ .ai-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 10px;
+    text-align: center;
+    color: #fcfeff;
   }
 
   .hisense-U7KQ .ai-icon-container {
+    display: flex;
     gap: 9px;
+    justify-content: center;
+    align-items: center;
   }
 
   .hisense-U7KQ .ai-icon {
@@ -1230,1307 +844,1754 @@ body {
   }
 
   .hisense-U7KQ .ai-icon-description {
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 12px;
+    color: #fcfeff;
+  }
+
+  @media (min-width: 768px) {
+    .hisense-U7KQ h3 {
+      line-height: 120%;
+    }
+
+    .hisense-U7KQ .hero {
+      display: grid;
+      grid-template-rows: 306px;
+      grid-template-columns: 454px 1fr;
+    }
+
+    .hisense-U7KQ .hero-bg-main-title {
+      width: 164px;
+    }
+
+    .hisense-U7KQ .hero-bg-secondary {
+      align-items: center;
+      justify-items: left;
+    }
+
+    .hisense-U7KQ .hero-bg-secondary-title {
+      width: 167px;
+    }
+
+    .hisense-U7KQ .video-container {
+      width: 100%;
+      margin-top: -1px;
+    }
+
+    .hisense-U7KQ .compare {
+      margin-top: -1px;
+      padding: 80px 56px;
+      background: #000;
+    }
+
+    .hisense-U7KQ .compare-label {
+      width: 100px;
+    }
+
+    .hisense-U7KQ .compare-label-container {
+      grid-template-columns: 100px 300px;
+      grid-template-rows: 35px 35px;
+      column-gap: 38px;
+      justify-content: center;
+    }
+
+    .hisense-U7KQ .compare-label-title {
+      font-size: 30px;
+    }
+
+    .hisense-U7KQ .compare-label-description {
+      font-size: 16px;
+    }
+
+    .hisense-U7KQ .buy-now {
+      padding: 80px 101px;
+      gap: 40px;
+    }
+
+    .hisense-U7KQ .buy-now-containers-wrap {
+      gap: 55px;
+    }
+
+    .hisense-U7KQ .buy-now-container {
+      row-gap: 50px;
+    }
+
+    .hisense-U7KQ .buy-now-container-title {
+      font-size: 56px;
+    }
+
+    .hisense-U7KQ .buy-now-image-container {
+      width: 130px;
+      gap: 32px;
+    }
+
+    .hisense-U7KQ .buy-now-container-second-title {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .buy-now-container-button {
+      font-size: 14px;
+      padding: 12px 24px;
+    }
+
+    .hisense-U7KQ .diods {
+      padding: 40px 50px 146px 50px;
+      grid-template-columns: repeat(3, 150px);
+      grid-template-rows: 69px 42px auto;
+      gap: 16px;
+      height: auto;
+    }
+
+    .hisense-U7KQ .diods-title {
+      font-size: 20px;
+      width: 550px;
+    }
+
+    .hisense-U7KQ .diods-description {
+      font-size: 12px;
+      width: 600px;
+    }
+
+    .hisense-U7KQ .attribute-title {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .attribute-number {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .attribute-uppertitle {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .sunshine-picture {
+      padding: 212px 46px 40px 46px;
+      row-gap: 16px;
+      column-gap: 66px;
+      height: auto;
+      grid-template-columns: 152px 66px 92px 154px;
+      grid-template-rows: 46px 70px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .sunshinepicture-title {
+      font-size: 20px;
+      grid-column: 1/4;
+    }
+
+    .hisense-U7KQ .sunshine-picture-description {
+      font-size: 12px;
+      width: 152px;
+      grid-row: 2/3;
+    }
+
+    .hisense-U7KQ .sunshine-picture-img-container {
+      column-gap: 19px;
+      grid-template-columns: 66px 92px 194px;
+      grid-template-rows: 1fr;
+      grid-row: 2/3;
+      grid-column: 2/4;
+      align-items: start;
+    }
+
+    .hisense-U7KQ .sunshine-picture-logo-container {
+      gap: 8px;
+      width: 200px;
+    }
+
+    .hisense-U7KQ .logo-img {
+      width: 40px;
+    }
+
+    .hisense-U7KQ .logo-description {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .gaming {
+      margin-top: -1px;
+      background-size: cover;
+      height: auto;
+      padding: 60px 56px 92px 56px;
+      grid-template-rows: 23px 44px 98px 65px;
+      gap: 8px;
+      justify-items: end;
+    }
+
+    .hisense-U7KQ .gaming-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .gaming-image {
+      width: 256px;
+    }
+
+    .hisense-U7KQ .gaming-description {
+      font-size: 12px;
+      width: 305px;
+    }
+
+    .hisense-U7KQ .gaming-img-container {
+      column-gap: 16px;
+      row-gap: 8px;
+      grid-template-columns: 64px 52px 44px;
+      grid-template-rows: 32px 36px;
+    }
+
+    .hisense-U7KQ .gaming-logo-container {
+      gap: 8px;
+      width: 150px;
+    }
+
+    .hisense-U7KQ .gaming-logo-img {
+      width: 40px;
+    }
+
+    .hisense-U7KQ .gaming-logo-description {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .detalisation {
+      padding: 30px 41px;
+      gap: 14px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hisense-U7KQ .detalisation-title {
+      font-size: 20px;
+      margin-bottom: 242px;
+    }
+
+    .hisense-U7KQ .detalisation-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-container {
+      column-gap: 70px;
+      row-gap: 0px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-container {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-icon {
+      width: 25px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-description {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-container {
+      gap: 9px;
+      grid-row: 1/2;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-icon {
+      width: 29px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-description {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-hdr {
+      width: 58px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-dolby {
+      width: 48px;
+    }
+
+    .hisense-U7KQ .quantum-color {
+      height: auto;
+      padding: 154px 81px;
+    }
+
+    .hisense-U7KQ .quantum-color-container {
+      border-radius: 21px;
+      padding: 22px;
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .quantum-color-container-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .quantum-color-logo-container {
+      gap: 6px;
+    }
+
+    .hisense-U7KQ .quantum-logo {
+      width: 23px;
+    }
+
+    .hisense-U7KQ .quantum-logo-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .imax {
+      background-size: cover;
+      height: auto;
+      padding: 29px 41px;
+      gap: 165px;
+      align-items: center;
+    }
+
+    .hisense-U7KQ .imax-header-container {
+      height: 93px;
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .imax-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .imax-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .imax-logo {
+      width: 131px;
+      margin-bottom: 0px;
+    }
+
+    .hisense-U7KQ .imax-attribute-container {
+      grid-template-columns: repeat(4, 110px);
+      grid-template-rows: 1fr;
+      column-gap: 13px;
+      row-gap: 0px;
+    }
+
+    .hisense-U7KQ .imax-icon-container {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .imax-attribute-icon {
+      width: 31px;
+    }
+
+    .hisense-U7KQ .imax-attribute-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .profi-gamers {
+      padding: 73px 41px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .profi-gamers-container {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:first-child {
+      width: 235px;
+      gap: 9px;
+      align-items: flex-end;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
+      gap: 9px;
+      margin-right: 260px;
+    }
+
+    .hisense-U7KQ .profi-gamers-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-attribute {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-image {
+      width: 35px;
+    }
+
+    .hisense-U7KQ .uppertitle-attribute-span {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .gaming-panel {
+      padding: 30px 41px 265px 41px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .gaming-panel-container {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .gaming-panel-container-title {
+      font-size: 24px;
+    }
+
+    .hisense-U7KQ .gaming-panel-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container {
+      gap: 4px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-image {
+      width: 38px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .hollywood-production {
+      gap: 9px;
+      justify-items: center;
+      padding: 30px 35px 408px 35px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .hollywood-production-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .hollywood-production-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .hollywood-production-image {
+      width: 52px;
+    }
+
+    .hisense-U7KQ .ai {
+      gap: 9px;
+      padding: 0px 41px 276px 41px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .ai-title {
+      font-size: 20px;
+    }
+
+    .hisense-U7KQ .ai-description {
+      font-size: 10px;
+    }
+
+    .hisense-U7KQ .ai-icon-container {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .ai-icon {
+      width: 38px;
+    }
+
+    .hisense-U7KQ .ai-icon-description {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hisense-U7KQ .hero {
+      grid-template-rows: 416px;
+      grid-template-columns: 615px 1fr;
+    }
+
+    .hisense-U7KQ .hero-bg-main-title {
+      width: 281px;
+    }
+
+    .hisense-U7KQ .hero-bg-secondary-title {
+      width: 300px;
+    }
+
+    .hisense-U7KQ .compare {
+      padding: 100px 56px;
+    }
+
+    .hisense-U7KQ .compare-label {
+      width: 130px;
+    }
+
+    .hisense-U7KQ .compare-label-container {
+      grid-template-columns: 130px 400px;
+      grid-template-rows: 52px 52px;
+    }
+
+    .hisense-U7KQ .compare-label-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .compare-label-description {
+      font-size: 22px;
+    }
+
+    .hisense-U7KQ .model-title-image {
+      width: 120px;
+      height: 87px;
+    }
+
+    .hisense-U7KQ .model-container-image {
+      width: 144px;
+    }
+
+    .hisense-U7KQ .buy-now {
+      padding: 100px 130px;
+      gap: 70px;
+    }
+
+    .hisense-U7KQ .buy-now-containers-wrap {
+      gap: 80px;
+    }
+
+    .hisense-U7KQ .buy-now-container {
+      row-gap: 32px;
+    }
+
+    .hisense-U7KQ .buy-now-container-title {
+      font-size: 70px;
+    }
+
+    .hisense-U7KQ .buy-now-image-container {
+      width: 180px;
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .buy-now-container-second-title {
+      font-size: 22px;
+    }
+
+    .hisense-U7KQ .buy-now-container-button {
+      font-size: 14px;
+      padding: 12px 24px;
+    }
+
+    .hisense-U7KQ .diods {
+      padding: 60px 56px 228px 56px;
+      grid-template-columns: repeat(3, 204px);
+      grid-template-rows: 99px 48px auto;
+      gap: 16px;
+      background-size: cover;
+    }
+
+    .hisense-U7KQ .diods-title {
+      font-size: 28px;
+      width: 800px;
+    }
+
+    .hisense-U7KQ .diods-description {
+      font-size: 14px;
+      width: 870px;
+    }
+
+    .hisense-U7KQ .attribute-title {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .attribute-number {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .attribute-uppertitle {
+      font-size: 14px;
+      width: 104px;
+    }
+
+    .hisense-U7KQ .sunshine-picture {
+      padding: 358px 56px 60px 56px;
+      row-gap: 16px;
+      column-gap: 66px;
+      grid-template-columns: 357px 72px 104px 230px;
+      grid-template-rows: 66px 70px;
+    }
+
+    .hisense-U7KQ .sunshinepicture-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .sunshine-picture-description {
+      font-size: 14px;
+      width: 357px;
+    }
+
+    .hisense-U7KQ .sunshine-picture-img-container {
+      column-gap: 19px;
+      grid-template-columns: 72px 101px 200px;
+    }
+
+    .hisense-U7KQ .sunshine-picture-logo-container {
+      gap: 8px;
+      width: 230px;
+    }
+
+    .hisense-U7KQ .logo-img {
+      width: 48px;
+    }
+
+    .hisense-U7KQ .logo-description {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .gaming {
+      padding: 60px 56px 198px 56px;
+      grid-template-rows: 33px 44px 112px 77px;
+      gap: 8px;
+    }
+
+    .hisense-U7KQ .gaming-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .gaming-image {
+      width: 256px;
+    }
+
+    .hisense-U7KQ .gaming-description {
+      font-size: 14px;
+      width: 352px;
+    }
+
+    .hisense-U7KQ .gaming-img-container {
+      column-gap: 24px;
+      row-gap: 16px;
+      grid-template-columns: 80px 65px 55px;
+      grid-template-rows: 29px 32px;
+    }
+
+    .hisense-U7KQ .gaming-logo-container {
+      gap: 11px;
+      width: 150px;
+    }
+
+    .hisense-U7KQ .gaming-logo-img {
+      width: 50px;
+    }
+
+    .hisense-U7KQ .gaming-logo-description {
+      font-size: 11px;
+    }
+
+    .hisense-U7KQ .detalisation {
+      padding: 40px 56px;
+      gap: 18px;
+    }
+
+    .hisense-U7KQ .detalisation-title {
+      font-size: 28px;
+      margin-bottom: 320px;
+    }
+
+    .hisense-U7KQ .detalisation-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-container {
+      column-gap: 95px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-icon {
+      width: 33px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-description {
+      font-size: 14px;
+      width: 176px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-icon {
+      width: 40px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-description {
+      font-size: 14px;
+      width: 176px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-hdr {
+      width: 79px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-dolby {
+      width: 65px;
+    }
+
+    .hisense-U7KQ .quantum-color {
+      padding: 208px 109px;
+    }
+
+    .hisense-U7KQ .quantum-color-container {
+      border-radius: 29px;
+      padding: 30px;
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .quantum-color-container-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .quantum-color-logo-container {
+      gap: 8px;
+    }
+
+    .hisense-U7KQ .quantum-logo {
+      width: 31px;
+    }
+
+    .hisense-U7KQ .quantum-logo-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .imax {
+      padding: 40px 56px;
+      gap: 241px;
+    }
+
+    .hisense-U7KQ .imax-header-container {
+      height: 119px;
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .imax-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .imax-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .imax-logo {
+      width: 178px;
+    }
+
+    .hisense-U7KQ .imax-attribute-container {
+      grid-template-columns: repeat(4, 150px);
+      column-gap: 17px;
+    }
+
+    .hisense-U7KQ .imax-icon-container {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .imax-attribute-icon {
+      width: 42px;
+    }
+
+    .hisense-U7KQ .imax-attribute-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .profi-gamers {
+      padding: 99px 56px;
+    }
+
+    .hisense-U7KQ .profi-gamers-container {
+      gap: 70px;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:first-child {
+      width: 335px;
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
+      width: 475px;
+      gap: 9px;
+      margin-right: 385px;
+    }
+
+    .hisense-U7KQ .profi-gamers-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle {
+      gap: 9px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-attribute {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-image {
+      width: 48px;
+    }
+
+    .hisense-U7KQ .uppertitle-attribute-span {
+      font-size: 12px;
+    }
+
+    .hisense-U7KQ .gaming-panel {
+      padding: 40px 56px 366px 56px;
+    }
+
+    .hisense-U7KQ .gaming-panel-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .gaming-panel-container-title {
+      font-size: 35px;
+    }
+
+    .hisense-U7KQ .gaming-panel-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-image {
+      width: 51px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .hollywood-production {
+      gap: 12px;
+      padding: 40px 56px 593px 56px;
+    }
+
+    .hisense-U7KQ .hollywood-production-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .hollywood-production-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .hollywood-production-image {
+      width: 52px;
+    }
+
+    .hisense-U7KQ .ai {
+      gap: 12px;
+      padding: 0px 56px 384px 56px;
+    }
+
+    .hisense-U7KQ .ai-title {
+      font-size: 28px;
+    }
+
+    .hisense-U7KQ .ai-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .ai-icon-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .ai-icon {
+      width: 43px;
+    }
+
+    .hisense-U7KQ .ai-icon-description {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .hisense-U7KQ h3 {
+      line-height: 45px;
+    }
+
+    .hisense-U7KQ .hero {
+      grid-template-rows: 583px;
+      grid-template-columns: 862px 1fr;
+    }
+
+    .hisense-U7KQ .hero-bg-main-title {
+      width: 394px;
+      margin-top: 84px;
+    }
+
+    .hisense-U7KQ .hero-bg-secondary-title {
+      width: 400px;
+    }
+
+    .hisense-U7KQ .compare {
+      padding: 100px 56px;
+    }
+
+    .hisense-U7KQ .compare-label {
+      width: 180px;
+    }
+
+    .hisense-U7KQ .compare-label-container {
+      grid-template-columns: 180px 589px;
+      grid-template-rows: 70px 76px;
+    }
+
+    .hisense-U7KQ .compare-model-container {
+      gap: 40px;
+    }
+
+    .hisense-U7KQ .compare-label-title {
+      font-size: 60px;
+    }
+
+    .hisense-U7KQ .compare-label-description {
+      font-size: 32px;
+    }
+
+    .hisense-U7KQ .model-icon-container {
+      width: 284px;
+    }
+
+    .hisense-U7KQ .model-icon-image {
+      width: 96px;
+    }
+
+    .hisense-U7KQ .model-icon-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .model-title-image {
+      width: 200px;
+      height: 146px;
+    }
+
+    .hisense-U7KQ .model-container-image {
+      width: 234px;
+    }
+
+    .hisense-U7KQ .buy-now {
+      padding: 120px 225px;
+      gap: 80px;
+    }
+
+    .hisense-U7KQ .buy-now-container-title {
+      font-size: 100px;
+    }
+
+    .hisense-U7KQ .buy-now-image-container {
+      width: 240px;
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .buy-now-container-second-title {
+      font-size: 32px;
+    }
+
+    .hisense-U7KQ .buy-now-container-button {
+      font-size: 20px;
+      border-radius: 70px;
+      padding: 16px 44px;
+    }
+
+    .hisense-U7KQ .diods {
+      padding: 88px 80px 352px 80px;
+      grid-template-columns: repeat(3, 204px);
+      grid-template-rows: 141px 42px auto;
+    }
+
+    .hisense-U7KQ .diods-title {
+      font-size: 40px;
+      width: 1100px;
+    }
+
+    .hisense-U7KQ .diods-description {
+      font-size: 18px;
+      width: 1200px;
+    }
+
+    .hisense-U7KQ .attribute-title {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .attribute-number {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .attribute-uppertitle {
+      font-size: 18px;
+      width: 133px;
+    }
+
+    .hisense-U7KQ .sunshine-picture {
+      padding: 513px 75px 82px 55px;
+      grid-template-columns: 609px 95px 114px 284px;
+      grid-template-rows: 94px 63px;
+    }
+
+    .hisense-U7KQ .sunshinepicture-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .sunshine-picture-description {
+      font-size: 18px;
+      width: 609px;
+    }
+
+    .hisense-U7KQ .sunshine-picture-img-container {
+      grid-template-columns: 94px 114px 200px;
+      align-items: center;
+    }
+
+    .hisense-U7KQ .sunshine-picture-logo-container {
+      gap: 29px;
+      width: 284px;
+    }
+
+    .hisense-U7KQ .logo-img {
+      width: 59px;
+    }
+
+    .hisense-U7KQ .logo-description {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .gaming {
+      padding: 80px 80px 395px 80px;
+      grid-template-rows: 47px 64px 126px 32px;
+      gap: 8px;
+    }
+
+    .hisense-U7KQ .gaming-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .gaming-image {
+      width: 379px;
+    }
+
+    .hisense-U7KQ .gaming-description {
+      font-size: 18px;
+      width: 553px;
+    }
+
+    .hisense-U7KQ .gaming-img-container {
+      column-gap: 24px;
+      row-gap: 0px;
+      grid-template-columns: 80px 65px 55px 57px 149px;
+      grid-template-rows: 1fr;
+    }
+
+    .hisense-U7KQ .gaming-logo-container {
+      gap: 11px;
+      width: 150px;
+    }
+
+    .hisense-U7KQ .gaming-logo-img {
+      width: 50px;
+    }
+
+    .hisense-U7KQ .gaming-logo-description {
+      font-size: 11px;
+    }
+
+    .hisense-U7KQ .detalisation {
+      padding: 45px 80px;
+      gap: 24px;
+    }
+
+    .hisense-U7KQ .detalisation-title {
+      font-size: 40px;
+      margin-bottom: 475px;
+    }
+
+    .hisense-U7KQ .detalisation-description {
+      font-size: 17px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-container {
+      column-gap: 95px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-icon {
+      width: 46px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-first-description {
+      font-size: 18px;
+      width: 260px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-container {
+      gap: 12px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-icon {
+      width: 56px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-second-description {
+      font-size: 18px;
+      width: 240px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-hdr {
+      width: 110px;
+    }
+
+    .hisense-U7KQ .detalisation-attribute-dolby {
+      width: 91px;
+    }
+
+    .hisense-U7KQ .quantum-color {
+      padding: 292px 153px;
+    }
+
+    .hisense-U7KQ .quantum-color-container {
+      border-radius: 40px;
+      padding: 40px;
+      gap: 17px;
+    }
+
+    .hisense-U7KQ .quantum-color-container-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .quantum-color-logo-container {
+      gap: 11px;
+    }
+
+    .hisense-U7KQ .quantum-logo {
+      width: 44px;
+    }
+
+    .hisense-U7KQ .quantum-logo-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .imax {
+      padding: 45px 80px;
+      gap: 392px;
+    }
+
+    .hisense-U7KQ .imax-header-container {
+      height: 140px;
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .imax-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .imax-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .imax-logo {
+      width: 249px;
+    }
+
+    .hisense-U7KQ .imax-attribute-container {
+      grid-template-columns: repeat(4, 209px);
+      column-gap: 24px;
+    }
+
+    .hisense-U7KQ .imax-icon-container {
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .imax-attribute-icon {
+      width: 60px;
+    }
+
+    .hisense-U7KQ .imax-attribute-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .profi-gamers {
+      padding: 139px 80px;
+    }
+
+    .hisense-U7KQ .profi-gamers-container {
+      gap: 70px;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:first-child {
+      width: 470px;
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
+      width: 535px;
+      gap: 12px;
+      margin-right: 665px;
+    }
+
+    .hisense-U7KQ .profi-gamers-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle {
+      gap: 12px;
+      margin-right: 23px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-attribute {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .profi-gamers-uppertitle-image {
+      width: 67px;
+    }
+
+    .hisense-U7KQ .uppertitle-attribute-span {
+      font-size: 14px;
+    }
+
+    .hisense-U7KQ .gaming-panel {
+      padding: 49px 80px 525px 80px;
+    }
+
+    .hisense-U7KQ .gaming-panel-container {
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .gaming-panel-container-title {
+      font-size: 50px;
+    }
+
+    .hisense-U7KQ .gaming-panel-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container {
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-image {
+      width: 72px;
+    }
+
+    .hisense-U7KQ .gaming-panel-icon-container-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .hollywood-production {
+      gap: 16px;
+      padding: 100px 80px 795px 80px;
+    }
+
+    .hisense-U7KQ .hollywood-production-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .hollywood-production-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .hollywood-production-image {
+      width: 64px;
+    }
+
+    .hisense-U7KQ .ai {
+      gap: 16px;
+      padding: 0px 80px 545px 80px;
+    }
+
+    .hisense-U7KQ .ai-title {
+      font-size: 40px;
+    }
+
+    .hisense-U7KQ .ai-description {
+      font-size: 18px;
+    }
+
+    .hisense-U7KQ .ai-icon-container {
+      gap: 16px;
+    }
+
+    .hisense-U7KQ .ai-icon {
+      width: 60px;
+    }
+
+    .hisense-U7KQ .ai-icon-description {
+      font-size: 18px;
+    }
   }
-}
-
-@media (min-width: 1024px) {
-  .hisense-U7KQ .hero {
-    grid-template-rows: 416px;
-    grid-template-columns: 615px 1fr;
-  }
-
-  .hisense-U7KQ .hero-bg-main-title {
-    width: 281px;
-  }
-
-  .hisense-U7KQ .hero-bg-secondary-title {
-    width: 300px;
-  }
-
-  .hisense-U7KQ .compare {
-    padding: 100px 56px;
-  }
-
-  .hisense-U7KQ .compare-label {
-    width: 130px;
-  }
-
-  .hisense-U7KQ .compare-label-container {
-    grid-template-columns: 130px 400px;
-    grid-template-rows: 52px 52px;
-  }
-
-  .hisense-U7KQ .compare-label-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .compare-label-description {
-    font-size: 22px;
-  }
-
-  .hisense-U7KQ .model-title-image {
-    width: 120px;
-    height: 87px;
-  }
-
-  .hisense-U7KQ .model-container-image {
-    width: 144px;
-  }
-
-  .hisense-U7KQ .buy-now {
-    padding: 100px 130px;
-    gap: 70px;
-  }
-
-  .hisense-U7KQ .buy-now-containers-wrap {
-    gap: 80px;
-  }
-
-  .hisense-U7KQ .buy-now-container {
-    row-gap: 32px;
-  }
-
-  .hisense-U7KQ .buy-now-container-title {
-    font-size: 70px;
-  }
-
-  .hisense-U7KQ .buy-now-image-container {
-    width: 180px;
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .buy-now-container-second-title {
-    font-size: 22px;
-  }
-
-  .hisense-U7KQ .buy-now-container-button {
-    font-size: 14px;
-    padding: 12px 24px;
-  }
-
-  .hisense-U7KQ .diods {
-    padding: 60px 56px 228px 56px;
-    grid-template-columns: repeat(3, 204px);
-    grid-template-rows: 99px 48px auto;
-    gap: 16px;
-    background-size: cover;
-  }
-
-  .hisense-U7KQ .diods-title {
-    font-size: 28px;
-    width: 800px;
-  }
-
-  .hisense-U7KQ .diods-description {
-    font-size: 14px;
-    width: 870px;
-  }
-
-  .hisense-U7KQ .attribute-title {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .attribute-number {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .attribute-uppertitle {
-    font-size: 14px;
-    width: 104px;
-  }
-
-  .hisense-U7KQ .sunshine-picture {
-    padding: 358px 56px 60px 56px;
-    row-gap: 16px;
-    column-gap: 66px;
-    grid-template-columns: 357px 72px 104px 230px;
-    grid-template-rows: 66px 70px;
-  }
-  .hisense-U7KQ .sunshinepicture-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .sunshine-picture-description {
-    font-size: 14px;
-    width: 357px;
-  }
-
-  .hisense-U7KQ .sunshine-picture-img-container {
-    column-gap: 19px;
-    grid-template-columns: 72px 101px 200px;
-  }
-
-  .hisense-U7KQ .sunshine-picture-logo-container {
-    gap: 8px;
-    width: 230px;
-  }
-
-  .hisense-U7KQ .logo-img {
-    width: 48px;
-  }
-
-  .hisense-U7KQ .logo-description {
-    font-size: 12px;
-  }
-
-  .hisense-U7KQ .gaming {
-    padding: 60px 56px 198px 56px;
-    grid-template-rows: 33px 44px 112px 77px;
-    gap: 8px;
-  }
-
-  .hisense-U7KQ .gaming-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .gaming-image {
-    width: 256px;
-  }
-
-  .hisense-U7KQ .gaming-description {
-    font-size: 14px;
-    width: 352px;
-  }
-
-  .hisense-U7KQ .gaming-img-container {
-    column-gap: 24px;
-    row-gap: 16px;
-    grid-template-columns: 80px 65px 55px;
-    grid-template-rows: 29px 32px;
-  }
-
-  .hisense-U7KQ .gaming-logo-container {
-    gap: 11px;
-    width: 150px;
-  }
-
-  .hisense-U7KQ .gaming-logo-img {
-    width: 50px;
-  }
-
-  .hisense-U7KQ .gaming-logo-description {
-    font-size: 11px;
-  }
-
-  .hisense-U7KQ .detalisation {
-    padding: 40px 56px;
-    gap: 18px;
-  }
-
-  .hisense-U7KQ .detalisation-title {
-    font-size: 28px;
-    margin-bottom: 320px;
-  }
-  .hisense-U7KQ .detalisation-description {
-    font-size: 14px;
-  }
-  .hisense-U7KQ .detalisation-attribute-container {
-    column-gap: 95px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-container {
-    gap: 12px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-icon {
-    width: 33px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-description {
-    font-size: 14px;
-    width: 176px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-container {
-    gap: 12px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-icon {
-    width: 40px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-description {
-    font-size: 14px;
-    width: 176px;
-  }
-  .hisense-U7KQ .detalisation-attribute-hdr {
-    width: 79px;
-  }
-  .hisense-U7KQ .detalisation-attribute-dolby {
-    width: 65px;
-  }
-
-  .hisense-U7KQ .quantum-color {
-    padding: 208px 109px;
-  }
-
-  .hisense-U7KQ .quantum-color-container {
-    border-radius: 29px;
-    padding: 30px;
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .quantum-color-container-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .quantum-color-logo-container {
-    gap: 8px;
-  }
-
-  .hisense-U7KQ .quantum-logo {
-    width: 31px;
-  }
-
-  .hisense-U7KQ .quantum-logo-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .imax {
-    padding: 40px 56px;
-    gap: 241px;
-  }
-
-  .hisense-U7KQ .imax-header-container {
-    height: 119px;
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .imax-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .imax-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .imax-logo {
-    width: 178px;
-  }
-
-  .hisense-U7KQ .imax-attribute-container {
-    grid-template-columns: repeat(4, 150px);
-    column-gap: 17px;
-  }
-
-  .hisense-U7KQ .imax-icon-container {
-    gap: 9px;
-  }
-
-  .hisense-U7KQ .imax-attribute-icon {
-    width: 42px;
-  }
-
-  .hisense-U7KQ .imax-attribute-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .profi-gamers {
-    padding: 99px 56px;
-  }
-
-  .hisense-U7KQ .profi-gamers-container {
-    gap: 70px;
-  }
-
-  .hisense-U7KQ .profi-gamers-description-container:first-child {
-    width: 335px;
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
-    width: 475px;
-    gap: 9px;
-    margin-right: 385px;
-  }
-
-  .hisense-U7KQ .profi-gamers-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle {
-    gap: 9px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle-attribute {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle-image {
-    width: 48px;
-  }
-
-  .hisense-U7KQ .uppertitle-attribute-span {
-    font-size: 12px;
-  }
-
-  .hisense-U7KQ .gaming-panel {
-    padding: 40px 56px 366px 56px;
-  }
-
-  .hisense-U7KQ .gaming-panel-container {
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .gaming-panel-container-title {
-    font-size: 35px;
-  }
-
-  .hisense-U7KQ .gaming-panel-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container {
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container-image {
-    width: 51px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .hollywood-production {
-    gap: 12px;
-    padding: 40px 56px 593px 56px;
-  }
-
-  .hisense-U7KQ .hollywood-production-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .hollywood-production-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .hollywood-production-image {
-    width: 52px;
-  }
-
-  .hisense-U7KQ .ai {
-    gap: 12px;
-    padding: 0px 56px 384px 56px;
-  }
-
-  .hisense-U7KQ .ai-title {
-    font-size: 28px;
-  }
-
-  .hisense-U7KQ .ai-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .ai-icon-container {
-    gap: 12px;
-  }
-
-  .hisense-U7KQ .ai-icon {
-    width: 43px;
-  }
-
-  .hisense-U7KQ .ai-icon-description {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .hisense-U7KQ .hero {
-    grid-template-rows: 583px;
-    grid-template-columns: 862px 1fr;
-  }
-
-  .hisense-U7KQ .hero-bg-main-title {
-    width: 394px;
-    margin-top: 84px;
-  }
-
-  .hisense-U7KQ .hero-bg-secondary-title {
-    width: 400px;
-  }
-
-  .hisense-U7KQ .compare {
-    padding: 100px 56px;
-  }
-
-  .hisense-U7KQ .compare-label {
-    width: 180px;
-  }
-
-  .hisense-U7KQ .compare-label-container {
-    grid-template-columns: 180px 589px;
-    grid-template-rows: 70px 76px;
-  }
-
-  .hisense-U7KQ .compare-model-container {
-    gap: 40px;
-  }
-
-  .hisense-U7KQ .compare-label-title {
-    font-size: 60px;
-  }
-
-  .hisense-U7KQ .compare-label-description {
-    font-size: 32px;
-  }
-
-  .hisense-U7KQ .model-icon-container {
-    width: 284px;
-  }
-
-  .hisense-U7KQ .model-icon-image {
-    width: 96px;
-  }
-
-  .hisense-U7KQ .model-icon-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .model-title-image {
-    width: 200px;
-    height: 146px;
-  }
-
-  .hisense-U7KQ .model-container-image {
-    width: 234px;
-  }
-
-  .hisense-U7KQ .buy-now {
-    padding: 120px 225px;
-    gap: 80px;
-  }
-
-  .hisense-U7KQ .buy-now-container-title {
-    font-size: 100px;
-  }
-
-  .hisense-U7KQ .buy-now-image-container {
-    width: 240px;
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .buy-now-container-second-title {
-    font-size: 32px;
-  }
-
-  .hisense-U7KQ .buy-now-container-button {
-    font-size: 20px;
-    border-radius: 70px;
-    padding: 16px 44px;
-  }
-
-  .hisense-U7KQ .diods {
-    padding: 88px 80px 352px 80px;
-    grid-template-columns: repeat(3, 204px);
-    grid-template-rows: 141px 42px auto;
-  }
-
-  .hisense-U7KQ .diods-title {
-    font-size: 40px;
-    width: 1100px;
-  }
-
-  .hisense-U7KQ .diods-description {
-    font-size: 18px;
-    width: 1200px;
-  }
-
-  .hisense-U7KQ .attribute-title {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .attribute-number {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .attribute-uppertitle {
-    font-size: 18px;
-    width: 133px;
-  }
-
-  .hisense-U7KQ .sunshine-picture {
-    padding: 513px 75px 82px 55px;
-    grid-template-columns: 609px 95px 114px 284px;
-    grid-template-rows: 94px 63px;
-  }
-  .hisense-U7KQ .sunshinepicture-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .sunshine-picture-description {
-    font-size: 18px;
-    width: 609px;
-  }
-
-  .hisense-U7KQ .sunshine-picture-img-container {
-    grid-template-columns: 94px 114px 200px;
-    align-items: center;
-  }
-
-  .hisense-U7KQ .sunshine-picture-logo-container {
-    gap: 29px;
-    width: 284px;
-  }
-
-  .hisense-U7KQ .logo-img {
-    width: 59px;
-  }
-
-  .hisense-U7KQ .logo-description {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .gaming {
-    padding: 80px 80px 395px 80px;
-    grid-template-rows: 47px 64px 126px 32px;
-    gap: 8px;
-  }
-
-  .hisense-U7KQ .gaming-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .gaming-image {
-    width: 379px;
-  }
-
-  .hisense-U7KQ .gaming-description {
-    font-size: 18px;
-    width: 553px;
-  }
-
-  .hisense-U7KQ .gaming-img-container {
-    column-gap: 24px;
-    row-gap: 0px;
-    grid-template-columns: 80px 65px 55px 57px 149px;
-    grid-template-rows: 1fr;
-  }
-
-  .hisense-U7KQ .gaming-logo-container {
-    gap: 11px;
-    width: 150px;
-  }
-
-  .hisense-U7KQ .gaming-logo-img {
-    width: 50px;
-  }
-
-  .hisense-U7KQ .gaming-logo-description {
-    font-size: 11px;
-  }
-
-  .hisense-U7KQ .detalisation {
-    padding: 45px 80px;
-    gap: 24px;
-  }
-
-  .hisense-U7KQ .detalisation-title {
-    font-size: 40px;
-    margin-bottom: 475px;
-  }
-  .hisense-U7KQ .detalisation-description {
-    font-size: 17px;
-  }
-  .hisense-U7KQ .detalisation-attribute-container {
-    column-gap: 95px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-container {
-    gap: 12px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-icon {
-    width: 46px;
-  }
-  .hisense-U7KQ .detalisation-attribute-first-description {
-    font-size: 18px;
-    width: 260px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-container {
-    gap: 12px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-icon {
-    width: 56px;
-  }
-  .hisense-U7KQ .detalisation-attribute-second-description {
-    font-size: 18px;
-    width: 240px;
-  }
-  .hisense-U7KQ .detalisation-attribute-hdr {
-    width: 110px;
-  }
-  .hisense-U7KQ .detalisation-attribute-dolby {
-    width: 91px;
-  }
-
-  .hisense-U7KQ .quantum-color {
-    padding: 292px 153px;
-  }
-
-  .hisense-U7KQ .quantum-color-container {
-    border-radius: 40px;
-    padding: 40px;
-    gap: 17px;
-  }
-
-  .hisense-U7KQ .quantum-color-container-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .quantum-color-logo-container {
-    gap: 11px;
-  }
-
-  .hisense-U7KQ .quantum-logo {
-    width: 44px;
-  }
-
-  .hisense-U7KQ .quantum-logo-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .imax {
-    padding: 45px 80px;
-    gap: 392px;
-  }
-
-  .hisense-U7KQ .imax-header-container {
-    height: 140px;
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .imax-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .imax-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .imax-logo {
-    width: 249px;
-  }
-
-  .hisense-U7KQ .imax-attribute-container {
-    grid-template-columns: repeat(4, 209px);
-    column-gap: 24px;
-  }
-
-  .hisense-U7KQ .imax-icon-container {
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .imax-attribute-icon {
-    width: 60px;
-  }
-
-  .hisense-U7KQ .imax-attribute-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .profi-gamers {
-    padding: 139px 80px;
-  }
-
-  .hisense-U7KQ .profi-gamers-container {
-    gap: 70px;
-  }
-
-  .hisense-U7KQ .profi-gamers-description-container:first-child {
-    width: 470px;
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .profi-gamers-description-container:nth-child(2) {
-    width: 575px;
-    gap: 12px;
-    margin-right: 635px;
-  }
-
-  .hisense-U7KQ .profi-gamers-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle {
-    gap: 12px;
-    margin-right: 23px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle-attribute {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .profi-gamers-uppertitle-image {
-    width: 67px;
-  }
-
-  .hisense-U7KQ .uppertitle-attribute-span {
-    font-size: 14px;
-  }
-
-  .hisense-U7KQ .gaming-panel {
-    padding: 49px 80px 525px 80px;
-  }
-
-  .hisense-U7KQ .gaming-panel-container {
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .gaming-panel-container-title {
-    font-size: 50px;
-  }
-
-  .hisense-U7KQ .gaming-panel-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container {
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container-image {
-    width: 72px;
-  }
-
-  .hisense-U7KQ .gaming-panel-icon-container-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .hollywood-production {
-    gap: 16px;
-    padding: 100px 80px 795px 80px;
-  }
-
-  .hisense-U7KQ .hollywood-production-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .hollywood-production-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .hollywood-production-image {
-    width: 64px;
-  }
-
-  .hisense-U7KQ .ai {
-    gap: 16px;
-    padding: 0px 80px 545px 80px;
-  }
-
-  .hisense-U7KQ .ai-title {
-    font-size: 40px;
-  }
-
-  .hisense-U7KQ .ai-description {
-    font-size: 18px;
-  }
-
-  .hisense-U7KQ .ai-icon-container {
-    gap: 16px;
-  }
-
-  .hisense-U7KQ .ai-icon {
-    width: 60px;
-  }
-
-  .hisense-U7KQ .ai-icon-description {
-    font-size: 18px;
-  }
-}
-
 </style>
 <div class="hisense-U7KQ">
-            <div class="hero">
-                <div class="hero-bg-main">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-title.webp" alt=""
-                        class="hero-bg-main-title">
-                </div>
-                <div class="hero-bg-secondary">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-title-2.webp" alt=""
-                        class="hero-bg-secondary-title">
-                </div>
-            </div>
-            <div class="compare">
-                <div class="compare-label-container">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-label.webp" alt=""
-                        class="compare-label">
-                    <h3 class="compare-label-title">Телевізори Hisense</h3>
-                    <p class="compare-label-description">Глобальний бренд телевізорів,
-                        що займає 2-гу позицію у світі</p>
-                </div>
-                <div class="compare-model visually-hidden">
-                    <div class="compare-model-container">
-                        <div class="model-title-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-title.webp" alt=""
-                                class="model-title-image">
-                            <p class="model-title-description"></p>
-                        </div>
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-image.webp" alt=""
-                            class="model-container-image">
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Mini-LED X, 144 Гц
-                                1456 зон підсвічування (65 дюймів)</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Режим Game<br>
-                                Mode Pro, 144 Гц</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-3.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Ідеальне зображення
-                                вдень і вночі з яскравістю<br>
-                                понад 2000 ніт</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-4.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Багатоканальний звук</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Технологія
-                                <br>Quantum Dot Colour
-                            </p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-6.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Рушій HI-VIEW Engine
-                                16 біт</p>
-                        </div>
-                    </div>
-                    <div class="compare-model-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-title.webp" alt=""
-                            class="model-title-image">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-image.webp" alt=""
-                            class="model-container-image">
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Mini-LED PRO, 144 Гц
-                                1008 зон підсвічування (65 дюймів)</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Режим Game<br>
-                                Mode Pro, 144 Гц</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-3.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Ідеальне зображення
-                                вдень і вночі з яскравістю<br>
-                                понад 1500 ніт</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-4.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Багатоканальний звук</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Технологія<br>
-                                Quantum Dot Colour</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-6.webp" alt=""
-                                class="model-icon-image">
-                        </div>
-                    </div>
-                    <div class="compare-model-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-title.webp" alt=""
-                            class="model-title-image">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-image.webp" alt=""
-                            class="model-container-image">
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Mini-LED PRO, 144 Гц
-                                512 зон підсвічування (75 дюймів)</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Режим Game<br>
-                                Mode Pro, 144 Гц</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-char-3.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Ідеальне зображення
-                                вдень і вночі з яскравістю<br>
-                                понад 1000 ніт</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-char-4.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Вбудований сабвуфер</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Технологія<br>
-                                Quantum Dot Colour</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-6.webp" alt=""
-                                class="model-icon-image">
-                        </div>
-                    </div>
-                    <div class="compare-model-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-title.webp" alt=""
-                            class="model-title-image">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-image.webp" alt=""
-                            class="model-container-image">
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Mini-LED PRO, 144 Гц
-                                192 зони підсвічування (65 дюймів)</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-2.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Режим<br>
-                                Game Mode Plus</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-3.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Ідеальне зображення
-                                вдень і вночі з яскравістю<br>
-                                600 ніт</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-4.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Голосове управління</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
-                                class="model-icon-image">
-                            <p class="model-icon-description">Технологія<br>
-                                Quantum Dot Colour</p>
-                        </div>
-                        <div class="model-icon-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-6.webp" alt=""
-                                class="model-icon-image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="buy-now">
-                <div class="buy-now-container">
-                    <h3 class="buy-now-container-title">UXKQ</h3>
-                    <div class="buy-now-containers-wrap">
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-uxkq-1.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">65UXKQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-uxkq-2.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">85UXKQ</p>
-                        </div>
-                    </div>
-                    <button class="buy-now-container-button"
-                        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
-                        ЗАРАЗ</button>
-                </div>
-                <div class="buy-now-container">
-                    <h3 class="buy-now-container-title">U8KQ</h3>
-                    <div class="buy-now-containers-wrap">
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-1.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">55U8KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-2.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">65U8KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-3.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">75U8KQ</p>
-                        </div>
-                    </div>
-                    <button class="buy-now-container-button"
-                        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
-                        ЗАРАЗ</button>
-                </div>
-                <div class="buy-now-container">
-                    <h3 class="buy-now-container-title">U7KQ</h3>
-                    <div class="buy-now-containers-wrap">
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-1.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">55U7KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-2.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">65U7KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-3.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">75U7KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-4.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">85U7KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-5.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">100U7KQ</p>
-                        </div>
-                    </div>
-                    <button class="buy-now-container-button"
-                        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
-                        ЗАРАЗ</button>
-                </div>
-                <div class="buy-now-container">
-                    <h3 class="buy-now-container-title">U6KQ</h3>
-                    <div class="buy-now-containers-wrap">
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u6kq-1.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">55U6KQ</p>
-                        </div>
-                        <div class="buy-now-image-container">
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u6kq-2.webp" alt=""
-                                class="buy-now-image">
-                            <p class="buy-now-container-second-title">65U6KQ</p>
-                        </div>
-                    </div>
-                    <button class="buy-now-container-button"
-                        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
-                        ЗАРАЗ</button>
-                </div>
-            </div>
-            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-1.webp" alt="" class="video-container">
-            <div class="diods">
-                <h3 class="diods-title">Надзвичайна контрастність, яскравість, насиченість
-                    чорного та мільйони яскравих кольорів.<br>
-                    UX виводить якість зображення на новий рівень.</h3>
-                <p class="diods-description">Модель Mini LED від Hisense — це тисячі мініатюрних діодів, розміщених
-                    безпосередньо за екраном, що створюють
-                    зображення, досконале в кожній деталі. Це забезпечує надзвичайно високу яскравість, дивовижну
-                    контрастність, насиченість
-                    чорного та точність кольорів.</p>
-                <div class="diods-attribute-container-dark">
-                    <p class="attribute-title">Телевізор Mini LED із</p>
-                    <p class="attribute-number">20 000</p>
-                    <p class="attribute-uppertitle">діодів</p>
-                </div>
-                <div class="diods-attribute-container-medium">
-                    <p class="attribute-title">Понад</p>
-                    <p class="attribute-number">5,000+</p>
-                    <p class="attribute-uppertitle">зон локального
-                        підсвічування</p>
-                </div>
-                <div class="diods-attribute-container-light">
-                    <p class="attribute-title">Яскравість</p>
-                    <p class="attribute-number">2,500</p>
-                    <p class="attribute-uppertitle">ніт</p>
-                </div>
-            </div>
-            <div class="sunshine-picture">
-                <h3 class="sunshinepicture-title">Ідеальне зображення
-                    <br><span class="title-span-color">як у сонячний день, так і вночі</span>
-                </h3>
-                <p class="sunshine-picture-description">Датчик освітленості постійно відстежує умови освітлення в
-                    приміщенні<br>
-                    та автоматично регулює яскравість.</p>
-                <div class="sunshine-picture-img-container">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/dolby-vision.webp" alt=""
-                        class="sunshine-picture-logo">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hdr-adaptive.webp" alt=""
-                        class="sunshine-picture-logo">
-                    <div class="sunshine-picture-logo-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/sunshine-attribute.webp" alt=""
-                            class="logo-img">
-                        <p class="logo-description">Зображення автоматичноадаптується до навколишнього середовища</p>
-                    </div>
-                </div>
-            </div>
-            <div class="gaming">
-                <h3 class="gaming-title">Перевага</h3>
-                <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-title.webp" alt=""
-                    class="gaming-image">
-                <p class="gaming-description">Випробуйте вдосконалений ігровий режим Game Mode Pro з частотою оновлення
-                    144 Гц
-                    і насолоджуйтесь оптимальним ігровим процесом на будь-якій консолі або ПК. Завдяки технології
-                    Dolby Vision візуальні
-                    ефекти будуть ще більш реалістичними.</p>
-                <div class="gaming-img-container">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-1.webp" alt=""
-                        class="gaming-logo">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-2.webp" alt=""
-                        class="gaming-logo">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-3.webp" alt=""
-                        class="gaming-logo">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-4.webp" alt=""
-                        class="gaming-logo">
-                    <div class="gaming-logo-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-5.webp" alt=""
-                            class="gaming-logo-img">
-                        <p class="gaming-logo-description">Режим Game 
-                            Mode Pro, 144 Гц</p>
-                    </div>
-                </div>
-            </div>
-            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-2.webp" alt="" class="video-container">
-            <div class="detalisation">
-                <h3 class="detalisation-title">Ідеальна яскравість, приголомшлива деталізація</h3>
-                <p class="detalisation-description">Секретний інгредієнт чудового зображення? Вражаюча яскравість. Тепер
-                    ви можете насолоджуватися зображенням, фрагменти
-                    якого підсвічуються на рівні понад 1000 ніт. Це реалістичне сонячне світло, яскравий вогонь в
-                    екшн-сценах і
-                    неперевершена деталізація у форматі HDR.</p>
-                <div class="detalisation-attribute-container">
-                    <div class="detalisation-attribute-first-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-1.webp" alt=""
-                            class="detalisation-attribute-first-icon">
-                        <p class="detalisation-attribute-first-description">Пікова яскравість 1500 ніт</p>
-                    </div>
-                    <div class="detalisation-attribute-second-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-2.webp" alt=""
-                            class="detalisation-attribute-second-icon">
-                        <p class="detalisation-attribute-second-description">Локальне затемнення
-                            в будь-якій точці екрана </p>
-                    </div>
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-3.webp" alt=""
-                        class="detalisation-attribute-hdr">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-4.webp" alt=""
-                        class="detalisation-attribute-dolby">
-                </div>
-            </div>
-            <div class="quantum-color">
-                <div class="quantum-color-container">
-                    <h3 class="quantum-color-container-title">Понад мільярд яскравих кольорів і відтінків</h3>
-                    <div class="quantum-color-logo-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/quantum-color-logo.webp" alt=""
-                            class="quantum-logo">
-                        <p class="quantum-logo-description">Технологія Quantum Dot Colour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="imax">
-                <div class="imax-header-container">
-                    <h3 class="imax-title">Зображення рівня IMAX тепер у вашій вітальні</h3>
-                    <p class="imax-description">Любите емоції від походу в кіно? Насолоджуєтеся враженнями від
-                        кіносеансів?
-                        <br>Тепер голлівудська технологія IMAX доступна в новітніх телевізорах Hisense — одним дотиком
-                        до
-                        пульта
-                        дистанційного
-                        керування.
-                    </p>
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-1.webp" alt="" class="imax-logo">
-                </div>
-                <div class="imax-attribute-container">
-                    <div class="imax-icon-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-2.webp" alt=""
-                            class="imax-attribute-icon">
-                        <p class="imax-attribute-description">Дивіться чіткіше
-                            і яскравіше зображення</p>
-                    </div>
-                    <div class="imax-icon-container"><img
-                            src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-3.webp" alt=""
-                            class="imax-attribute-icon">
-                        <p class="imax-attribute-description">Насолоджуйтеся захоплюючим звуком у форматі DTS®</p>
-                    </div>
-                    <div class="imax-icon-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-4.webp" alt=""
-                            class="imax-attribute-icon">
-                        <p class="imax-attribute-description">Дивіться контент преміумкласу, що пройшов цифрову обробку
-                            IMAX®</p>
-                    </div>
-                    <div class="imax-icon-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-5.webp" alt=""
-                            class="imax-attribute-icon">
-                        <p class="imax-attribute-description">Більше деталей на найбільших екранах</p>
-                    </div>
-
-                </div>
-            </div>
-            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-3.webp" alt="" class="video-container">
-            <div class="profi-gamers">
-                <div class="profi-gamers-container">
-                    <div class="profi-gamers-description-container">
-                        <h3 class="profi-gamers-title">Чистий ігровий процес.
-                            Плавне зображення.</h3>
-                        <div class="profi-gamers-uppertitle">
-                            <p class="profi-gamers-uppertitle-attribute">4K, 144 Гц, VRR</p>
-                            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/profi-gamers-icon.webp" alt=""
-                                class="profi-gamers-uppertitle-image">
-                        </div>
-                    </div>
-                    <div class="profi-gamers-description-container">
-                        <h3 class="profi-gamers-title">Грайте як профі<br>
-                            та відточуйте геймерську
-                            майстерність.</h3>
-                        <div class="profi-gamers-uppertitle">
-                            <p class="profi-gamers-uppertitle-attribute">HDMI 2.1 ALLM
-                                <br><span class="uppertitle-attribute-span">* Підтримує технології eARC, ALLM і VRR
-                                    відповідно до специфікації HDMI 2.1.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gaming-panel">
-                <div class="gaming-panel-container">
-                    <h3 class="gaming-panel-container-title">Ігрова панель і меню гравця</h3>
-                    <p class="gaming-panel-description">Тепер керувати грою стало ще простіше завдяки висувному меню
-                        гравця, яке миттєво надає доступ до найважливіших
-                        параметрів під час гри. Тепер ви можете швидко налаштувати зображення, перевірити поточні
-                        параметри гри та змінити
-                        налаштування, аби здобути перевагу на ігровому полі.</p>
-                    <div class="gaming-panel-icon-container">
-                        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-panel-icon.webp" alt=""
-                            class="gaming-panel-icon-container-image">
-                        <p class="gaming-panel-icon-container-description">Ігрова панель</p>
-                    </div>
-                </div>
-            </div>
-            <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-4.webp" alt="" class="video-container">
-            <div class="hollywood-production">
-                <h3 class="hollywood-production-title">
-                    Дивіться фільми та серіали такими, як їх задумували голлівудські режисери
-                </h3>
-                <p class="hollywood-production-description">
-                    Багато видатних кінематографістів стоять за ідеєю режиму Filmmaker Mode — режиму зображення,
-                    розробленого для
-                    найточнішого відображення на екрані задуму режисера. Насолоджуйтесь автентичними кольорами,
-                    правильною частотою кадрів і
-                    відповідними пропорціями екрана для кожної сцени. Відчуйте магію кіно у власній вітальні.
-                </p>
-                <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hollywood-icon.webp" alt=""
-                    class="hollywood-production-image">
-            </div>
-            <div class="ai">
-                <h3 class="ai-title">Сила штучного інтелекту в кожній сцені</h3>
-                <p class="ai-description">Удосконалений процесор Hisense Hi-View Engine використовує механізми штучного
-                    інтелекту. Потужність нейронних мереж
-                    постійно працює над оптимізацією зображення, аналізуючи кожен кадр і витягуючи максимум із графіки
-                    та звуку незалежно
-                    від того, що ви дивитеся. Потужний процесор забезпечує надзвичайну плавність роботи телевізора та
-                    значно покращує
-                    аудіовізуальний досвід, зокрема, за рахунок кращих кольорів і ефективного масштабування контенту до
-                    4K.</p>
-                <div class="ai-icon-container">
-                    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/ai-icon.webp" alt="" class="ai-icon">
-                    <p class="ai-icon-description">Рушій HI-VIEW Engine 16 біт</p>
-                </div>
-            </div>
+  <div class="hero">
+    <div class="hero-bg-main">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-title.webp" alt="" class="hero-bg-main-title">
+    </div>
+    <div class="hero-bg-secondary">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hero-title-2.webp" alt=""
+        class="hero-bg-secondary-title">
+    </div>
+  </div>
+  <div class="compare">
+    <div class="compare-label-container">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-label.webp" alt="" class="compare-label">
+      <h3 class="compare-label-title">Телевізори Hisense</h3>
+      <p class="compare-label-description">Глобальний бренд телевізорів,
+        що займає 2-гу позицію у світі</p>
+    </div>
+    <div class="compare-model visually-hidden">
+      <div class="compare-model-container">
+        <div class="model-title-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-title.webp" alt=""
+            class="model-title-image">
+          <p class="model-title-description"></p>
         </div>
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-image.webp" alt=""
+          class="model-container-image">
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Mini-LED X, 144 Гц
+            1456 зон підсвічування (65 дюймів)</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Режим Game<br>
+            Mode Pro, 144 Гц</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-3.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Ідеальне зображення
+            вдень і вночі з яскравістю<br>
+            понад 2000 ніт</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-4.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Багатоканальний звук</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Технологія
+            <br>Quantum Dot Colour
+          </p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-6.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Рушій HI-VIEW Engine
+            16 біт</p>
+        </div>
+      </div>
+      <div class="compare-model-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-title.webp" alt=""
+          class="model-title-image">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-image.webp" alt=""
+          class="model-container-image">
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Mini-LED PRO, 144 Гц
+            1008 зон підсвічування (65 дюймів)</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Режим Game<br>
+            Mode Pro, 144 Гц</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-3.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Ідеальне зображення
+            вдень і вночі з яскравістю<br>
+            понад 1500 ніт</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-4.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Багатоканальний звук</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Технологія<br>
+            Quantum Dot Colour</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-6.webp" alt=""
+            class="model-icon-image">
+        </div>
+      </div>
+      <div class="compare-model-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-title.webp" alt=""
+          class="model-title-image">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-image.webp" alt=""
+          class="model-container-image">
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Mini-LED PRO, 144 Гц
+            512 зон підсвічування (75 дюймів)</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-2.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Режим Game<br>
+            Mode Pro, 144 Гц</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-char-3.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Ідеальне зображення
+            вдень і вночі з яскравістю<br>
+            понад 1000 ніт</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U7-char-4.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Вбудований сабвуфер</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Технологія<br>
+            Quantum Dot Colour</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U8-char-6.webp" alt=""
+            class="model-icon-image">
+        </div>
+      </div>
+      <div class="compare-model-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-title.webp" alt=""
+          class="model-title-image">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-image.webp" alt=""
+          class="model-container-image">
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-1.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Mini-LED PRO, 144 Гц
+            192 зони підсвічування (65 дюймів)</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-2.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Режим<br>
+            Game Mode Plus</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-3.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Ідеальне зображення
+            вдень і вночі з яскравістю<br>
+            600 ніт</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-4.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Голосове управління</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-UX-char-5.webp" alt=""
+            class="model-icon-image">
+          <p class="model-icon-description">Технологія<br>
+            Quantum Dot Colour</p>
+        </div>
+        <div class="model-icon-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/compare-U6-char-6.webp" alt=""
+            class="model-icon-image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="buy-now">
+    <div class="buy-now-container">
+      <h3 class="buy-now-container-title">UXKQ</h3>
+      <div class="buy-now-containers-wrap">
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-uxkq-1.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">65UXKQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-uxkq-2.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">85UXKQ</p>
+        </div>
+      </div>
+      <button class="buy-now-container-button"
+        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
+        ЗАРАЗ</button>
+    </div>
+    <div class="buy-now-container">
+      <h3 class="buy-now-container-title">U8KQ</h3>
+      <div class="buy-now-containers-wrap">
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-1.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">55U8KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-2.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">65U8KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u8kq-3.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">75U8KQ</p>
+        </div>
+      </div>
+      <button class="buy-now-container-button"
+        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
+        ЗАРАЗ</button>
+    </div>
+    <div class="buy-now-container">
+      <h3 class="buy-now-container-title">U7KQ</h3>
+      <div class="buy-now-containers-wrap">
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-1.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">55U7KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-2.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">65U7KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-3.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">75U7KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-4.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">85U7KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u7kq-5.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">100U7KQ</p>
+        </div>
+      </div>
+      <button class="buy-now-container-button"
+        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
+        ЗАРАЗ</button>
+    </div>
+    <div class="buy-now-container">
+      <h3 class="buy-now-container-title">U6KQ</h3>
+      <div class="buy-now-containers-wrap">
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u6kq-1.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">55U6KQ</p>
+        </div>
+        <div class="buy-now-image-container">
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/buy-now-u6kq-2.webp" alt="" class="buy-now-image">
+          <p class="buy-now-container-second-title">65U6KQ</p>
+        </div>
+      </div>
+      <button class="buy-now-container-button"
+        onclick="window.location.href = 'https://www.ctrs.com.ua/televizory/brand-hisense/'">КУПИТИ
+        ЗАРАЗ</button>
+    </div>
+  </div>
+  <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-1.webp" alt="" class="video-container">
+  <div class="diods">
+    <h3 class="diods-title">Надзвичайна контрастність, яскравість, насиченість
+      чорного та мільйони яскравих кольорів.<br>
+      UX виводить якість зображення на новий рівень.</h3>
+    <p class="diods-description">Модель Mini LED від Hisense — це тисячі мініатюрних діодів, розміщених
+      безпосередньо за екраном, що створюють
+      зображення, досконале в кожній деталі. Це забезпечує надзвичайно високу яскравість, дивовижну
+      контрастність, насиченість
+      чорного та точність кольорів.</p>
+    <div class="diods-attribute-container-dark">
+      <p class="attribute-title">Телевізор Mini LED із</p>
+      <p class="attribute-number">20 000</p>
+      <p class="attribute-uppertitle">діодів</p>
+    </div>
+    <div class="diods-attribute-container-medium">
+      <p class="attribute-title">Понад</p>
+      <p class="attribute-number">5,000+</p>
+      <p class="attribute-uppertitle">зон локального
+        підсвічування</p>
+    </div>
+    <div class="diods-attribute-container-light">
+      <p class="attribute-title">Яскравість</p>
+      <p class="attribute-number">2,500</p>
+      <p class="attribute-uppertitle">ніт</p>
+    </div>
+  </div>
+  <div class="sunshine-picture">
+    <h3 class="sunshinepicture-title">Ідеальне зображення
+      <br><span class="title-span-color">як у сонячний день, так і вночі</span>
+    </h3>
+    <p class="sunshine-picture-description">Датчик освітленості постійно відстежує умови освітлення в
+      приміщенні<br>
+      та автоматично регулює яскравість.</p>
+    <div class="sunshine-picture-img-container">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/dolby-vision.webp" alt=""
+        class="sunshine-picture-logo">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hdr-adaptive.webp" alt=""
+        class="sunshine-picture-logo">
+      <div class="sunshine-picture-logo-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/sunshine-attribute.webp" alt="" class="logo-img">
+        <p class="logo-description">Зображення автоматичноадаптується до навколишнього середовища</p>
+      </div>
+    </div>
+  </div>
+  <div class="gaming">
+    <h3 class="gaming-title">Перевага</h3>
+    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-title.webp" alt="" class="gaming-image">
+    <p class="gaming-description">Випробуйте вдосконалений ігровий режим Game Mode Pro з частотою оновлення
+      144 Гц
+      і насолоджуйтесь оптимальним ігровим процесом на будь-якій консолі або ПК. Завдяки технології
+      Dolby Vision візуальні
+      ефекти будуть ще більш реалістичними.</p>
+    <div class="gaming-img-container">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-1.webp" alt="" class="gaming-logo">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-2.webp" alt="" class="gaming-logo">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-3.webp" alt="" class="gaming-logo">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-4.webp" alt="" class="gaming-logo">
+      <div class="gaming-logo-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-icon-5.webp" alt="" class="gaming-logo-img">
+        <p class="gaming-logo-description">Режим Game 
+          Mode Pro, 144 Гц</p>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-2.webp" alt="" class="video-container">
+  <div class="detalisation">
+    <h3 class="detalisation-title">Ідеальна яскравість, приголомшлива деталізація</h3>
+    <p class="detalisation-description">Секретний інгредієнт чудового зображення? Вражаюча яскравість. Тепер
+      ви можете насолоджуватися зображенням, фрагменти
+      якого підсвічуються на рівні понад 1000 ніт. Це реалістичне сонячне світло, яскравий вогонь в
+      екшн-сценах і
+      неперевершена деталізація у форматі HDR.</p>
+    <div class="detalisation-attribute-container">
+      <div class="detalisation-attribute-first-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-1.webp" alt=""
+          class="detalisation-attribute-first-icon">
+        <p class="detalisation-attribute-first-description">Пікова яскравість 1500 ніт</p>
+      </div>
+      <div class="detalisation-attribute-second-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-2.webp" alt=""
+          class="detalisation-attribute-second-icon">
+        <p class="detalisation-attribute-second-description">Локальне затемнення
+          в будь-якій точці екрана </p>
+      </div>
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-3.webp" alt=""
+        class="detalisation-attribute-hdr">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/detalisation-icon-4.webp" alt=""
+        class="detalisation-attribute-dolby">
+    </div>
+  </div>
+  <div class="quantum-color">
+    <div class="quantum-color-container">
+      <h3 class="quantum-color-container-title">Понад мільярд яскравих кольорів і відтінків</h3>
+      <div class="quantum-color-logo-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/quantum-color-logo.webp" alt=""
+          class="quantum-logo">
+        <p class="quantum-logo-description">Технологія Quantum Dot Colour</p>
+      </div>
+    </div>
+  </div>
+  <div class="imax">
+    <div class="imax-header-container">
+      <h3 class="imax-title">Зображення рівня IMAX тепер у вашій вітальні</h3>
+      <p class="imax-description">Любите емоції від походу в кіно? Насолоджуєтеся враженнями від
+        кіносеансів?
+        <br>Тепер голлівудська технологія IMAX доступна в новітніх телевізорах Hisense — одним дотиком
+        до
+        пульта
+        дистанційного
+        керування.
+      </p>
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-1.webp" alt="" class="imax-logo">
+    </div>
+    <div class="imax-attribute-container">
+      <div class="imax-icon-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-2.webp" alt="" class="imax-attribute-icon">
+        <p class="imax-attribute-description">Дивіться чіткіше
+          і яскравіше зображення</p>
+      </div>
+      <div class="imax-icon-container"><img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-3.webp" alt=""
+          class="imax-attribute-icon">
+        <p class="imax-attribute-description">Насолоджуйтеся захоплюючим звуком у форматі DTS®</p>
+      </div>
+      <div class="imax-icon-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-4.webp" alt="" class="imax-attribute-icon">
+        <p class="imax-attribute-description">Дивіться контент преміумкласу, що пройшов цифрову обробку
+          IMAX®</p>
+      </div>
+      <div class="imax-icon-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/imax-5.webp" alt="" class="imax-attribute-icon">
+        <p class="imax-attribute-description">Більше деталей на найбільших екранах</p>
+      </div>
+
+    </div>
+  </div>
+  <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-3.webp" alt="" class="video-container">
+  <div class="profi-gamers">
+    <div class="profi-gamers-container">
+      <div class="profi-gamers-description-container">
+        <h3 class="profi-gamers-title">Чистий ігровий процес.
+          Плавне зображення.</h3>
+        <div class="profi-gamers-uppertitle">
+          <p class="profi-gamers-uppertitle-attribute">4K, 144 Гц, VRR</p>
+          <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/profi-gamers-icon.webp" alt=""
+            class="profi-gamers-uppertitle-image">
+        </div>
+      </div>
+      <div class="profi-gamers-description-container">
+        <h3 class="profi-gamers-title">Грайте як профі<br>
+          та відточуйте геймерську
+          майстерність.</h3>
+        <div class="profi-gamers-uppertitle">
+          <p class="profi-gamers-uppertitle-attribute">HDMI 2.1 ALLM
+            <br><span class="uppertitle-attribute-span">* Підтримує технології eARC, ALLM і VRR
+              відповідно до специфікації HDMI 2.1.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gaming-panel">
+    <div class="gaming-panel-container">
+      <h3 class="gaming-panel-container-title">Ігрова панель і меню гравця</h3>
+      <p class="gaming-panel-description">Тепер керувати грою стало ще простіше завдяки висувному меню
+        гравця, яке миттєво надає доступ до найважливіших
+        параметрів під час гри. Тепер ви можете швидко налаштувати зображення, перевірити поточні
+        параметри гри та змінити
+        налаштування, аби здобути перевагу на ігровому полі.</p>
+      <div class="gaming-panel-icon-container">
+        <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/gaming-panel-icon.webp" alt=""
+          class="gaming-panel-icon-container-image">
+        <p class="gaming-panel-icon-container-description">Ігрова панель</p>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/video-4.webp" alt="" class="video-container">
+  <div class="hollywood-production">
+    <h3 class="hollywood-production-title">
+      Дивіться фільми та серіали такими, як їх задумували голлівудські режисери
+    </h3>
+    <p class="hollywood-production-description">
+      Багато видатних кінематографістів стоять за ідеєю режиму Filmmaker Mode — режиму зображення,
+      розробленого для
+      найточнішого відображення на екрані задуму режисера. Насолоджуйтесь автентичними кольорами,
+      правильною частотою кадрів і
+      відповідними пропорціями екрана для кожної сцени. Відчуйте магію кіно у власній вітальні.
+    </p>
+    <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/hollywood-icon.webp" alt=""
+      class="hollywood-production-image">
+  </div>
+  <div class="ai">
+    <h3 class="ai-title">Сила штучного інтелекту в кожній сцені</h3>
+    <p class="ai-description">Удосконалений процесор Hisense Hi-View Engine використовує механізми штучного
+      інтелекту. Потужність нейронних мереж
+      постійно працює над оптимізацією зображення, аналізуючи кожен кадр і витягуючи максимум із графіки
+      та звуку незалежно
+      від того, що ви дивитеся. Потужний процесор забезпечує надзвичайну плавність роботи телевізора та
+      значно покращує
+      аудіовізуальний досвід, зокрема, за рахунок кращих кольорів і ефективного масштабування контенту до
+      4K.</p>
+    <div class="ai-icon-container">
+      <img src="https://i.citrus.world/uploads/Haber/Hisense-u7kq/ai-icon.webp" alt="" class="ai-icon">
+      <p class="ai-icon-description">Рушій HI-VIEW Engine 16 біт</p>
+    </div>
+  </div>
+</div>

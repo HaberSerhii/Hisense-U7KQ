@@ -273,7 +273,7 @@ body {
 .hisense-U7KQ .diods-description {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   color: #fcfeff;
   grid-column: 1/4;
 }
@@ -326,7 +326,7 @@ body {
 .hisense-U7KQ .sunshinepicture-title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
   color: #fcfeff;
 }
 .title-span-color {
@@ -658,7 +658,7 @@ body {
 .hisense-U7KQ .profi-gamers-title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   text-align: inherit;
   background: linear-gradient(90deg, #a97d46 0%, #d4c6a8 100%);
   background-clip: text;
@@ -703,7 +703,7 @@ body {
 .hisense-U7KQ .gaming-panel-container-title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   background: linear-gradient(90deg, #499aff 0%, #e92fe8 51.2%, #fe4100 100%);
   background-clip: text;
@@ -713,7 +713,7 @@ body {
 .hisense-U7KQ .gaming-panel-description {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
   color: #fcfeff;
 }
@@ -863,7 +863,7 @@ body {
   }
 
   .hisense-U7KQ .compare-label-title {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   .hisense-U7KQ .compare-label-description {
@@ -914,7 +914,7 @@ body {
   }
 
   .hisense-U7KQ .diods-description {
-    font-size: 12px;
+    font-size: 11px;
     width: 600px;
   }
 
@@ -945,7 +945,7 @@ body {
   }
 
   .hisense-U7KQ .sunshine-picture-description {
-    font-size: 12px;
+    font-size: 11px;
     width: 152px;
     grid-row: 2/3;
   }
@@ -1154,7 +1154,7 @@ body {
   }
 
   .hisense-U7KQ .profi-gamers-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle {
@@ -1276,7 +1276,7 @@ body {
   }
 
   .hisense-U7KQ .compare-label-title {
-    font-size: 40px;
+    font-size: 39px;
   }
 
   .hisense-U7KQ .compare-label-description {
@@ -1554,7 +1554,7 @@ body {
   }
 
   .hisense-U7KQ .profi-gamers-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle {
@@ -1681,7 +1681,7 @@ body {
   }
 
   .hisense-U7KQ .compare-label-title {
-    font-size: 60px;
+    font-size: 57px;
   }
 
   .hisense-U7KQ .compare-label-description {
@@ -1697,7 +1697,7 @@ body {
   }
 
   .hisense-U7KQ .model-icon-description {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .hisense-U7KQ .model-title-image {
@@ -1745,7 +1745,7 @@ body {
   }
 
   .hisense-U7KQ .diods-description {
-    font-size: 18px;
+    font-size: 15px;
     width: 1200px;
   }
 
@@ -1960,7 +1960,7 @@ body {
   }
 
   .hisense-U7KQ .profi-gamers-title {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .hisense-U7KQ .profi-gamers-uppertitle {
